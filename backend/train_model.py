@@ -440,9 +440,9 @@ def main():
     print("\nTraining validation model (Random Forest)...")
     val_model = RandomForestClassifier(
         n_estimators=150,
-        max_depth=12,
-        min_samples_split=4,
-        max_features=4,
+        max_depth=10,
+        min_samples_split=8,
+        max_features=3,
         class_weight='balanced',
         random_state=42
     )
@@ -465,9 +465,9 @@ def main():
     print("Training final deployed model...")
     final_model = RandomForestClassifier(
         n_estimators=250,
-        max_depth=12,
-        min_samples_split=4,
-        max_features=4,
+        max_depth=10,
+        min_samples_split=8,
+        max_features=3,
         class_weight='balanced',
         random_state=42
     )
