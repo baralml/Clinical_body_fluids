@@ -75,19 +75,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Configure Environment Variables
-Create a `.env` file in the root directory:
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-### 3. (Optional) Retrain the Model
+### 2. (Optional) Retrain the Model
 If you modify the training dataset or distributions, you can retrain the Random Forest model:
 ```bash
 python backend/train_model.py
 ```
 
-### 4. Run the Server
+### 3. Run the Server
 Start the development server:
 ```bash
 uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
