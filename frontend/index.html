@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClinicalTrialInsight AI | Clinical Trial Search & LLM Eligibility matching</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main Style -->
+    <link rel="stylesheet" href="style.css?v=2.0.1">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <div class="logo-text">
+                    <h1>ClinicalTrialInsight <span>AI</span></h1>
+                    <p class="logo-sub">Intelligent Clinical Trials & Literature Matchmaker</p>
+                </div>
+            </div>
+            
+            <!-- Navigation Tabs -->
+            <nav class="app-nav">
+                <button class="nav-tab active" data-view="trialMatchingPage" title="Clinical Trial Matcher">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                    <span>Clinical Trial Matcher</span>
+                </button>
+                <button class="nav-tab" data-view="csfDiagnosticsPage" title="Early CSF Case Matcher">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                    <span>Early CSF Case Matcher</span>
+                </button>
+            </nav>
+            
+            <div class="header-controls">
+                <div class="status-indicator" id="llmStatusIndicator">
+                    <span class="status-dot simulated"></span>
+                    <span class="status-label" id="llmStatusLabel">API: Simulated Mode</span>
+                </div>
+                
+                <button class="theme-toggle-btn" id="themeToggle" title="Toggle Theme">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main class="app-main">
+            <!-- Page 1: Trial Matching -->
+            <div class="page-view" id="trialMatchingPage">
+                <!-- Sidebar: Search & Filters -->
+                <aside class="sidebar-panel card">
+                <div class="panel-header">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21 21-6-6m2-5a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/></svg>
+                    <h2>Trial Search Parameters</h2>
+                </div>
+                
+                <form id="searchForm" class="panel-form">
+                    <div class="form-group">
+                        <label for="conditionInput">Condition / Disease</label>
+                        <input type="text" id="conditionInput" placeholder="e.g., Lung Cancer, Diabetes" value="Lung Cancer" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="locationInput">Location / Country</label>
+                        <input type="text" id="locationInput" placeholder="e.g., United States, New York">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phaseSelect">Trial Phase</label>
+                            <select id="phaseSelect">
+                                <option value="">Any Phase</option>
+                                <option value="PHASE1">Phase 1</option>
+                                <option value="PHASE2">Phase 2</option>
+                                <option value="PHASE3" selected>Phase 3</option>
+                                <option value="PHASE4">Phase 4</option>
+                                <option value="EARLY_PHASE1">Early Phase 1</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="statusSelect">Recruitment Status</label>
+                            <select id="statusSelect">
+                                <option value="">Any Status</option>
+                                <option value="RECRUITING" selected>Recruiting</option>
+                                <option value="COMPLETED">Completed</option>
+                                <option value="ACTIVE_NOT_RECRUITING">Active, Not Recruiting</option>
+                                <option value="NOT_YET_RECRUITING">Not Yet Recruiting</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ageGroupSelect">Target Age Group</label>
+                            <select id="ageGroupSelect">
+                                <option value="">Any Age Group</option>
+                                <option value="CHILD">Child (0-17)</option>
+                                <option value="ADULT" selected>Adult (18-64)</option>
+                                <option value="OLDER_ADULT">Older Adult (65+)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="limitInput">Max Results</label>
+                            <input type="number" id="limitInput" min="1" max="50" value="8">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block" id="searchBtn">
+                        <span>Search Trials</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </form>
+            </aside>
+
+            <!-- Dashboard Content Areas -->
+            <section class="dashboard-content">
+                <!-- Top Row: Patient Profiler Panel -->
+                <div class="patient-profile-panel card" id="patientProfilePanel">
+                    <div class="panel-header-with-actions">
+                        <div class="panel-title">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/></svg>
+                            <h2>Patient Clinical Profile (Profiler)</h2>
+                        </div>
+                        <div class="template-selector">
+                            <span class="template-label">Quick Templates:</span>
+                            <button type="button" class="btn btn-sm btn-outline" id="loadOncoTemplate">Oncology</button>
+                            <button type="button" class="btn btn-sm btn-outline" id="loadCardioTemplate">Cardiology</button>
+                            <button type="button" class="btn btn-sm btn-outline" id="loadDiabetesTemplate">Endocrine</button>
+                        </div>
+                    </div>
+
+                    <!-- CSV Import Area -->
+                    <div class="csv-import-section">
+                        <div class="csv-actions">
+                            <button type="button" class="btn btn-sm btn-outline btn-csv" id="downloadSampleBtn" title="Download Sample CSV Template">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                                <span>Sample CSV</span>
+                            </button>
+                            
+                            <button type="button" class="btn btn-sm btn-outline btn-csv" id="uploadCsvBtn" title="Upload CSV with Patient Records">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+                                <span>Upload Patient CSV</span>
+                            </button>
+                            <input type="file" id="csvFileInput" accept=".csv" style="display: none;">
+                        </div>
+
+                        <!-- Dropdown to select parsed patients if multiple are present -->
+                        <div class="csv-select-wrapper hidden" id="csvPatientSelector">
+                            <label for="csvPatientDropdown">Active CSV Patient:</label>
+                            <select id="csvPatientDropdown" class="csv-dropdown">
+                                <!-- Dynamically populated options -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <form id="patientForm" class="patient-grid-form">
+                        <div class="form-row-triple">
+                            <div class="form-group">
+                                <label for="patientAge">Age</label>
+                                <input type="number" id="patientAge" min="0" max="120" value="54" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="patientSex">Sex</label>
+                                <select id="patientSex" required>
+                                    <option value="Male" selected>Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="All">Other / Undisclosed</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="patientCondition">Primary Condition</label>
+                                <input type="text" id="patientCondition" value="Stage III Non-Small Cell Lung Cancer (NSCLC)" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row-double">
+                            <div class="form-group">
+                                <label for="patientMeds">Current Medications</label>
+                                <textarea id="patientMeds" rows="2" placeholder="List medications, dosage, frequency...">Amlodipine 5mg daily, Metformin 500mg BID</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="patientHistory">Medical History & Co-morbidities</label>
+                                <textarea id="patientHistory" rows="2" placeholder="List relevant conditions, prior therapies, dates...">Type 2 Diabetes, Hypertension. Prior left lower lobectomy (12 months ago). No prior immunotherapy.</textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="patientLabs">Laboratory & Clinical Metrics</label>
+                            <input type="text" id="patientLabs" value="ECOG Performance Status: 1. EGFR mutation: Negative. ALK translocation: Negative. Platelets: 160k. CrCl: 75 mL/min.">
+                        </div>
+                    </form>
+
+                    <!-- ML Diagnostic Prediction Widget -->
+                    <div class="ml-prediction-widget">
+                        <div class="ml-widget-header">
+                            <div class="ml-widget-title">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                                <h3>ML CSF Diagnostic Classifier</h3>
+                            </div>
+                            <span class="badge badge-ml-status" id="mlModeBadge">ML: Standby</span>
+                        </div>
+                        
+                        <div class="ml-prediction-results">
+                            <!-- Primary Prediction Banner -->
+                            <div class="ml-primary-prediction">
+                                <span class="ml-prediction-label">Classified Condition:</span>
+                                <div class="ml-prediction-value" id="mlPredictionValue">Awaiting CSF Parameters</div>
+                                <div class="ml-confidence-wrapper">
+                                    <span>Model Confidence:</span>
+                                    <strong id="mlConfidenceValue">--</strong>
+                                </div>
+                            </div>
+                            
+                            <!-- Detailed Probabilities List -->
+                            <div class="ml-probabilities-list" id="mlProbabilitiesList">
+                                <!-- Dynamic Progress Bars populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Row: Results List -->
+                <div class="results-container">
+                    <div class="results-header">
+                        <h2>Available Clinical Trials</h2>
+                        <span class="results-count" id="resultsCount">0 trials found</span>
+                    </div>
+
+                    <!-- Loading State -->
+                    <div class="loading-state hidden" id="loadingState">
+                        <div class="spinner"></div>
+                        <p>Querying ClinicalTrials.gov and evaluating criteria...</p>
+                    </div>
+
+                    <!-- Empty State -->
+                    <div class="empty-state" id="emptyState">
+                        <div class="empty-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="m21 21-4.3-4.3M15 9l-6 6M9 9l6 6"/></svg>
+                        </div>
+                        <h3>No Trials Loaded</h3>
+                        <p>Enter search parameters above and click "Search Trials" to query live records.</p>
+                    </div>
+
+                    <!-- Trials Cards Grid -->
+                    <div class="trials-grid hidden" id="trialsGrid">
+                        <!-- Dynamic Cards will be rendered here -->
+                    </div>
+                </div>
+            </section>
+        </div> <!-- Close trialMatchingPage -->
+        
+        <!-- Page 2: CSF Diagnostics & Matching -->
+        <div class="page-view hidden" id="csfDiagnosticsPage">
+            <div class="csf-dashboard-grid">
+                <!-- Left: Parameters Form -->
+                <aside class="csf-inputs-panel card">
+                    <div class="panel-header">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/></svg>
+                        <h2>CSF Parameter Entry</h2>
+                    </div>
+
+                    <!-- CSV Import Area -->
+                    <div class="csv-import-section">
+                        <div class="csv-actions">
+                            <button type="button" class="btn btn-sm btn-outline btn-csv" id="csfDownloadSampleBtn" title="Download CSF Sample CSV Template">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                                <span>Sample CSV</span>
+                            </button>
+                            
+                            <button type="button" class="btn btn-sm btn-outline btn-csv" id="csfUploadCsvBtn" title="Upload CSV with CSF Patient Records">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+                                <span>Upload Patient CSV</span>
+                            </button>
+                        </div>
+
+                        <!-- Dropdown to select parsed patients if multiple are present -->
+                        <div class="csv-select-wrapper hidden" id="csfCsvPatientSelector">
+                            <label for="csfCsvPatientDropdown">Active CSV Patient:</label>
+                            <select id="csfCsvPatientDropdown" class="csv-dropdown">
+                                <!-- Dynamically populated options -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Quick Clinical Profile Templates -->
+                    <div class="clinical-templates-bar">
+                        <span class="template-label">Clinical Templates:</span>
+                        <div class="template-buttons">
+                            <button type="button" class="btn-template" id="loadCsfNormal">Normal</button>
+                            <button type="button" class="btn-template" id="loadCsfBacterial">Bacterial</button>
+                            <button type="button" class="btn-template" id="loadCsfViral">Viral</button>
+                            <button type="button" class="btn-template" id="loadCsfTbm">TBM</button>
+                            <button type="button" class="btn-template" id="loadCsfFungal">Fungal</button>
+                        </div>
+                    </div>
+
+                    <form id="csfDiagForm" class="csf-form-grid">
+                        <!-- Age & Sex -->
+                        <div class="form-group">
+                            <label for="csfAge">Age (Years)</label>
+                            <input type="number" id="csfAge" min="0" max="120" value="45" step="any" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfSex">Sex</label>
+                            <select id="csfSex" required>
+                                <option value="Male" selected>Male</option>
+                                <option value="Female">Female</option>
+                                <option value="All">Other / Undisclosed</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Protein & Glucose -->
+                        <div class="form-group">
+                            <label for="csfProtein">Microprotein (mg/dL)</label>
+                            <input type="number" id="csfProtein" min="0" value="30" step="any" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfGlucose">Glucose (mg/dL)</label>
+                            <input type="number" id="csfGlucose" min="0" value="60" step="any" required>
+                        </div>
+                        
+                        <!-- ADA & Chloride -->
+                        <div class="form-group">
+                            <label for="csfAda">ADA (U/L)</label>
+                            <input type="number" id="csfAda" min="0" value="3.0" step="any" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfChloride">Chloride (mmol/L)</label>
+                            <input type="number" id="csfChloride" min="0" value="122" step="any" required>
+                        </div>
+                        
+                        <!-- Specific Gravity & Volume -->
+                        <div class="form-group">
+                            <label for="csfSg">Specific Gravity</label>
+                            <input type="number" id="csfSg" min="1.000" max="1.100" value="1.006" step="0.001" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfVol">Volume (mL)</label>
+                            <input type="number" id="csfVol" min="0" value="10" step="any" required>
+                        </div>
+                        
+                        <!-- LDH & Microalbumin -->
+                        <div class="form-group">
+                            <label for="csfLdh">LDH (U/L)</label>
+                            <input type="number" id="csfLdh" min="0" value="10" step="any" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfMicroalbumin">Microalbumin (mg/dL)</label>
+                            <input type="number" id="csfMicroalbumin" min="0" value="8" step="any" required>
+                        </div>
+
+                        <!-- Cell Count & Cell Type -->
+                        <div class="form-group">
+                            <label for="csfCellCount">Cell Count (cu.mm)</label>
+                            <input type="number" id="csfCellCount" min="0" value="2" step="any" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfCellType">Cell Type Predominance</label>
+                            <select id="csfCellType" required>
+                                <option value="0" selected>Lymphocytes Only / 100% Lympho</option>
+                                <option value="1">Predominantly Lymphocytes</option>
+                                <option value="2">Mixed (Lympho + Polymorphs)</option>
+                                <option value="3">RBC Present / Hemorrhagic</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Physical Findings -->
+                        <div class="form-group csf-form-grid-full" style="margin-top: 8px; border-top: 1px solid var(--border-color); padding-top: 16px;">
+                            <h4 style="font-family: var(--font-heading); font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px;">Physical & Chemical Findings</h4>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="csfColour">Colour</label>
+                            <select id="csfColour" required>
+                                <option value="0" selected>Watery / Colourless</option>
+                                <option value="1">Straw / Pale Yellow</option>
+                                <option value="2">Whitish / Grayish / Xanthochromic</option>
+                                <option value="3">Reddish / Pinkish</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfPh">pH</label>
+                            <select id="csfPh" required>
+                                <option value="1" selected>7.0 (Neutral)</option>
+                                <option value="2">Alkaline / 7.5</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group csf-form-grid-full">
+                            <label for="csfAppearance">Appearance</label>
+                            <select id="csfAppearance" required>
+                                <option value="0" selected>Clear</option>
+                                <option value="1">Slightly Hazy / Slightly Turbid</option>
+                                <option value="2">Hazy</option>
+                                <option value="3">Turbid</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="csfCoagulum">Coagulum</label>
+                            <select id="csfCoagulum" required>
+                                <option value="0" selected>Absent</option>
+                                <option value="1">Present</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="csfDeposit">Deposit</label>
+                            <select id="csfDeposit" required>
+                                <option value="0" selected>Absent</option>
+                                <option value="1">Present</option>
+                            </select>
+                        </div>
+                    </form>
+                </aside>
+                
+                <!-- Right: Prediction & Similar Cases -->
+                <section class="csf-results-panel">
+                    <!-- Early ML Prediction Card -->
+                    <div class="card">
+                        <div class="ml-widget-header">
+                            <div class="ml-widget-title">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                                <h3>Early ML Diagnostic Predictor</h3>
+                            </div>
+                            <span class="badge badge-ml-status live" id="csfMlModeBadge">ML: Standby</span>
+                        </div>
+                        
+                        <div class="ml-prediction-results" style="margin-top: 16px;">
+                            <!-- Primary Prediction Banner -->
+                            <div class="ml-primary-prediction">
+                                <span class="ml-prediction-label">Classified CNS Diagnosis:</span>
+                                <div class="ml-prediction-value" id="csfMlPredictionValue">Calculating...</div>
+                                <div class="ml-confidence-wrapper">
+                                    <span>Model Confidence:</span>
+                                    <strong id="csfMlConfidenceValue">--</strong>
+                                </div>
+                            </div>
+                            
+                            <!-- Detailed Probabilities List -->
+                            <div class="ml-probabilities-list" id="csfMlProbabilitiesList">
+                                <!-- Dynamic Progress Bars populated by JS -->
+                            </div>
+                            
+                            <!-- Checklist flags table -->
+                            <div class="checks-grid">
+                                <div class="check-item" id="flagProtein">
+                                    <span class="check-icon" id="flagProteinIcon"></span>
+                                    <span>Protein &gt; 50 mg/dL (High)</span>
+                                </div>
+                                <div class="check-item" id="flagGlucose">
+                                    <span class="check-icon" id="flagGlucoseIcon"></span>
+                                    <span>Glucose &lt; 40 mg/dL (Low)</span>
+                                </div>
+                                <div class="check-item" id="flagAda">
+                                    <span class="check-icon" id="flagAdaIcon"></span>
+                                    <span>ADA &gt; 9 U/L (High)</span>
+                                </div>
+                                <div class="check-item" id="flagChloride">
+                                    <span class="check-icon" id="flagChlorideIcon"></span>
+                                    <span>Chloride &lt; 110 mmol/L (Low)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Similar Patient Cases Deck -->
+                    <div class="similar-cases-container">
+                        <h3 style="font-family: var(--font-heading); font-size: 1.15rem; color: var(--text-primary); margin-bottom: 16px; display: flex; align-items: center; gap: 8px;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm14 10v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            <span>Most Similar Database Cases (Patient Privacy Mask Active)</span>
+                        </h3>
+                        
+                        <div class="cases-deck" id="csfCasesDeck">
+                            <div class="empty-state" style="padding: 30px;">
+                                <p>Enter parameters to search database for matching profiles...</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+        <!-- Dynamic Slide-out Drawer / Detail Modal -->
+        <div class="drawer-overlay hidden" id="drawerOverlay">
+            <div class="detail-drawer">
+                <button class="drawer-close-btn" id="closeDrawer">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+                </button>
+
+                <div class="drawer-header">
+                    <div class="drawer-title-area">
+                        <span class="drawer-nct-id" id="drawerNctId">NCT00000000</span>
+                        <h2 id="drawerTitle">Clinical Trial Brief Title</h2>
+                        <div class="drawer-badges">
+                            <span class="badge" id="drawerPhase">Phase III</span>
+                            <span class="badge" id="drawerStatus">Recruiting</span>
+                        </div>
+                    </div>
+                    <div class="matching-status-hero" id="drawerMatchHero">
+                        <div class="hero-score-ring">
+                            <svg class="progress-ring" width="64" height="64">
+                                <circle class="progress-ring-bg" stroke="rgba(255,255,255,0.1)" stroke-width="4" fill="transparent" r="28" cx="32" cy="32"/>
+                                <circle class="progress-ring-fill" id="drawerScoreFill" stroke="var(--primary-glow)" stroke-width="4" fill="transparent" r="28" cx="32" cy="32" stroke-dasharray="175.9" stroke-dashoffset="175.9"/>
+                            </svg>
+                            <span class="hero-score-value" id="drawerMatchScore">0%</span>
+                        </div>
+                        <div class="hero-status-text">
+                            <span class="hero-status-label" id="drawerMatchStatus">Evaluating...</span>
+                            <span class="hero-status-sub">Eligibility Fit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabs Navigation -->
+                <div class="drawer-tabs">
+                    <button class="tab-btn active" data-tab="tab-overview">Overview</button>
+                    <button class="tab-btn" data-tab="tab-eligibility">LLM Eligibility Matching</button>
+                    <button class="tab-btn" data-tab="tab-literature">PubMed Literature Review</button>
+                </div>
+
+                <!-- Drawer Content -->
+                <div class="drawer-content-body">
+                    <!-- Tab 1: Overview -->
+                    <div class="tab-pane active" id="tab-overview">
+                        <div class="overview-section">
+                            <h3>Brief Summary</h3>
+                            <p id="drawerBriefSummary">Brief summary of the clinical study goes here...</p>
+                        </div>
+                        
+                        <div class="overview-grid">
+                            <div class="info-card">
+                                <h4>Target Conditions</h4>
+                                <ul id="drawerConditions">
+                                    <li>Non-Small Cell Lung Cancer</li>
+                                </ul>
+                            </div>
+                            <div class="info-card">
+                                <h4>Interventions Studied</h4>
+                                <ul id="drawerInterventions">
+                                    <li>Pembrolizumab (Drug)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="overview-section">
+                            <h3>Official Eligibility Criteria</h3>
+                            <pre class="criteria-text" id="drawerRawCriteria">Inclusion/Exclusion criteria details...</pre>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: LLM Eligibility Matching -->
+                    <div class="tab-pane" id="tab-eligibility">
+                        <div class="match-card-primary">
+                            <div class="match-card-icon" id="matchCardIcon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14M22 4 12 14.01l-3-3"/></svg>
+                            </div>
+                            <div class="match-card-text">
+                                <h3 id="matchStatusHeadline">Checking criteria matching status...</h3>
+                                <p id="matchReasoning">Analysis summary reasoning will appear here.</p>
+                            </div>
+                        </div>
+
+                        <div class="analysis-sections-grid">
+                            <div class="analysis-box success">
+                                <h4>Inclusion Criteria Analysis</h4>
+                                <ul id="inclusionCriteriaList">
+                                    <li>Evaluating inclusion compatibility...</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="analysis-box danger">
+                                <h4>Exclusion Criteria Check</h4>
+                                <ul id="exclusionCriteriaList">
+                                    <li>Evaluating exclusion hazards...</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="recommendations-box">
+                            <h4>Recommended Next Steps</h4>
+                            <p id="matchNextSteps">Clinical action recommendations...</p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: PubMed Literature Review -->
+                    <div class="tab-pane" id="tab-literature">
+                        <div class="lit-intro">
+                            <h3>PubMed Evidence Synthesis</h3>
+                            <p>Recent scientific publications from PubMed relating to this study's primary drug/intervention have been summarized using Gemini.</p>
+                        </div>
+
+                        <div class="loading-state hidden" id="litLoading">
+                            <div class="spinner"></div>
+                            <p>Searching PubMed and summarizing articles...</p>
+                        </div>
+
+                        <div class="lit-content-grid" id="litContent">
+                            <div class="lit-summary-box">
+                                <h4>Synthesized Summary</h4>
+                                <p id="litSummaryText">Summary details...</p>
+                            </div>
+                            
+                            <div class="lit-columns">
+                                <div class="lit-column">
+                                    <h4>Treatment Efficacy</h4>
+                                    <p id="litEfficacyText">Efficacy evidence...</p>
+                                </div>
+                                <div class="lit-column">
+                                    <h4>Safety & Adverse Events</h4>
+                                    <p id="litSafetyText">Safety profile findings...</p>
+                                </div>
+                            </div>
+                            
+                            <div class="lit-summary-box conclusion">
+                                <h4>Unified Conclusion</h4>
+                                <p id="litConclusionText">Overall clinical conclusion...</p>
+                            </div>
+
+                            <!-- Source Papers -->
+                            <div class="source-papers-section">
+                                <h4>Retrieved Publications from PubMed</h4>
+                                <div class="papers-list" id="litPapersList">
+                                    <!-- Dynamic papers rendered here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Logic Script -->
+    <script src="app.js?v=2.0.1"></script>
+</body>
+</html>

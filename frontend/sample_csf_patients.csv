@@ -1,0 +1,6 @@
+PatientID,Age,Sex,microprotein(mg/dL),glucose(mg/dL),ada(U/L),chloridemmoll,specificgravity,ldh(U/L),microalbumin(mg/dL),cellcount(cu.mm),celltype,colour,ph,appearance,coagulum,deposit,diagnosis
+P_TBM_01,45,Male,220,20,22.0,95,1.015,45,35,250,Predominantly Lymphocytes,Straw/Yellow,Neutral,Slightly Hazy,Present,Present,Tuberculous Meningitis
+P_BACT_02,50,Female,300,15,6.0,112,1.018,120,60,1500,Mixed (Lympho + Polymorphs),Whitish/Grayish,Neutral,Turbid,Present,Present,Bacterial Meningitis
+P_VIRAL_03,32,Male,75,55,4.0,120,1.008,18,12,150,Predominantly Lymphocytes,Colourless,Neutral,Clear,Absent,Absent,Viral Meningitis
+P_FUNGAL_04,28,Female,75,45,5.0,115,1.008,35,25,30,Predominantly Lymphocytes,Straw/Yellow,Neutral,Slightly Hazy,Absent,Absent,Fungal Meningitis
+P_NORMAL_05,42,Male,30,60,3.0,122,1.006,10,8,2,Lymphocytes Only / 100% Lympho,Colourless,Neutral,Clear,Absent,Absent,Normal CSF

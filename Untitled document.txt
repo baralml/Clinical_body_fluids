@@ -1,0 +1,299 @@
+﻿Feature Class
+	Raw Input (from Log Book)
+	Standardized Output
+	Logic Applied
+	Age Conversion
+	"18days", "20days"
+	0.05
+	Days / 365
+	
+
+	"1M", "04m"
+	0.08, 0.33
+	Months / 12
+	
+
+	
+
+	
+
+	
+
+	Cell Type Encoding
+	Lymphocytes only / 100% Lympho
+	0
+	Categorical Mapping
+	
+
+	Predominantly Lymphocytes
+	1
+	Categorical Mapping
+	
+
+	Mixed (Lympho + Polymorphs)
+	2
+	Categorical Mapping
+	
+
+	RBC present / Hemorrhagic
+	3
+	Categorical Mapping
+	
+
+	
+
+	
+
+	
+
+	Numerical Handling
+	"nil" / "absent" / Blank
+	0
+	Zero-fill
+	
+
+	"<10"
+	5
+	Midpoint value
+	
+
+	"<3.0"
+	1.5
+	Midpoint value
+	
+
+	"<2.0" or "Low"
+	1
+	Midpoint value
+	
+
+	"<0.02"
+	0.01
+	Midpoint value
+	
+
+	"<25" (LDH)
+	1
+	Minimal threshold
+	
+
+	
+
+	
+
+	
+
+	Physical Encodings
+	Watery / Colourless
+	0
+	Colour Index
+	
+
+	Straw / Pale Yellow
+	1
+	Colour Index
+	
+
+	Whitish / Reddish / Grayish
+	2
+	Colour Index
+	
+
+	7.0 (Neutral)
+	1
+	pH Index
+	
+
+	Alkaline / 7.5
+	2
+	pH Index
+	
+
+	Clear
+	0
+	Appearance Index
+	
+
+	Slightly Hazy / Slightly Turbid
+	1
+	Appearance Index
+	
+
+	Hazy / Turbid
+	2
+	Appearance Index
+	
+
+	
+
+	
+
+	
+
+	Binary Mapping
+	"Absent" / "nil"
+	0
+	Presence Binary
+	(Coagullam/Deposit)
+	"Present"
+	1
+	Presence Binary
+	
+
+	
+
+	
+
+	
+
+	Decimal Precision
+	"1.03", "1.1"
+	1.030, 1.100
+	3-Decimal Float
+	
+
+
+
+
+
+
+
+
+
+
+
+Parameter
+	Laboratory Reference Range
+	ML Binary Flag Logic
+	
+
+	Microprotein
+	< 50 mg/dl
+	is_protein_high = 1 if > 50
+	
+
+	ADA
+	Normal Range: < 9 U/L
+	is_ada_high = 1 if > 9
+	
+
+	
+
+	Positive: > 9 U/L
+	
+
+	
+
+	Glucose
+	40 - 70 mg/dl
+	is_glucose_low = 1 if < 40
+	
+
+	LDH
+	Not established
+	(Will keep as continuous value only)
+	
+
+	
+
+	
+
+	
+
+	
+
+	Feature Class
+	Parameter
+	Conversion/Threshold
+	
+
+	Categorical
+	is_protein_high
+	1 if protein_val > 50
+	
+
+	
+
+	is_ada_high
+	1 if ada_val > 9
+	
+
+	
+
+	is_glucose_low
+	1 if glucose_val < 40
+	
+
+	Quantitative
+	microprotein
+	Result extracted as mg/dl
+	
+
+	
+
+	ada
+	Result extracted as U/L
+	
+
+	
+
+	glucose
+	Result extracted as mg/dl
+	
+
+	
+
+	ldh
+	Result extracted as U/L
+	
+
+	
+
+	
+
+	
+
+	
+
+	Feature Class
+	Raw Input
+	Standardized Output
+	Logic
+	Colour
+	Watery / Colourless
+	0
+	Normal
+	
+
+	Straw / Pale Yellow
+	1
+	Protein/Bilirubin indicator
+	
+
+	Whitish / Grayish / Xanthochromic
+	2
+	Old blood / High Protein
+	
+
+	Reddish / Pinkish
+	3
+	Fresh blood (Hemorrhagic)
+	Appearance
+	Clear
+	0
+	Normal
+	
+
+	Slightly Hazy / Slightly Turbid
+	1
+	Borderline cell count
+	
+
+	Hazy
+	2
+	High cell count
+	
+
+	Turbid
+	3
+	Very high cells/purulent

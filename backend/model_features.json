@@ -1,0 +1,31 @@
+{
+    "features": [
+        "proteinval",
+        "isproteinhigh",
+        "glucoseval",
+        "isglucoselow",
+        "microalbuminval",
+        "adaval",
+        "isadahigh",
+        "chlorideval",
+        "ischloridelow",
+        "ldhval",
+        "volml",
+        "colourencoded",
+        "phencoded",
+        "appearanceencoded",
+        "coagullampresent",
+        "depositpresent",
+        "sgval",
+        "cnssymptomencoded",
+        "cellcount"
+    ],
+    "classes": {
+        "0": "Normal CSF / Control",
+        "1": "Bacterial Meningitis",
+        "2": "Viral Meningitis",
+        "3": "Tuberculous Meningitis",
+        "4": "Fungal Meningitis",
+        "5": "Encephalitis"
+    }
+}

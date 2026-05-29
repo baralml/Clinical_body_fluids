@@ -1,0 +1,600 @@
+patient_name,age,"mircroscopial_
+findings","cell_count
+(cu.mm)",Cell_type,generalize_comments,"biochemical_
+features","microprotein
+(mg/dL)","glucose
+(mg/dL)","microalbumin
+(mg/dL)","ada
+(U/L)","LDH
+(U/L)","chloride
+(mmol/L)","physical_
+findings",vol(ml),colour,pH,coagullam,"Coagullam_
+annotation",apperance,deposit,"specific_
+gravity",PAP  Smear,REASON FOR ADMISSION,HOSPITAL COURSE INCLUDING OPERATIONS,DIAGNOSIS :
+Biswanath Gupta,77,,2,"Lymphocytes 100%, RBC
+occational",,,125,63.4,386,nil,nil,nil,,10,straw,alkaline,absent,0,clear,absent,1.03,nil,,,
+Goutam Teli,69,,18,"Predominantly lymphocytes
+in a proteinaceous
+background",,,89.2,77,nil,<3.0,nil,102,,10,watery,alkaline,absent,0,slightly hazy,slightly present,1.015,nil,,,
+Khushi Chowdhury ,27,,5,"All lymphocytes in a 
+proteinaceous background",,,58,72,nil,<3.0,nil,101,,10,watery,alkaline,absent,0,clear,absent,1.02,nil,"Drowsy, disoriented.","Pa ent was admi ed with above men oned complaints. Relevant inves ga ons were sent for and 
+reports are a ached. Treated conserva vely with IV an bio c and other suppor ve medicines. LP 
+done. She was intubated and put on T Piece - > Later extubated and clinically she is improved, hence 
+now being discharged with hemodynamically stable condi on. ",
+Moubani Majumdar ,20,,4,"Lymphocytes 100%, RBC
+Present",,,168.1,66.1,nil,<2.0,27.4,nil,,10,straw,alkaline,absent,0,hazy,absent,1.01,nil,"Fever for 2 days, produc ve cough with sore throat with rashes over the body with malaise, neck pain, retrosternal pain, headache, photophobia & dehydra on present.","The pa ent was admi ed on 12/09/2024 for the above men oned reason. Relevant inves ga ons 
+were done (NCCT MRI Brain + Lumbar Puncture) and she was managed conserva vely with IV 
+an bio cs (Inj Meronem 1 gm, Inj Ciprofloxacin 100 ml, Inj Xone 2 gm, Inj Piozo 4.5 gm) & other 
+suppor ve care was given. She was also referred to Neurologist on OPD basis and to Ophthalmologist 
+for papilledema. Pa ent was ini ally thought to have meningi s but CSF analysis shows no infec on. 
+Thus further inves ga on concluded the present diagnosis. Gradually, pa ent's condi on has now 
+improved and the she is being discharged in hemodynamically stable condi on. ","HYPOPLASTIC LEFT TRANSVERSE & SIGMOID SINUS WITH SIGN OF MENINGISM (CEREBRAL VENOUS 
+THROMBOSIS)
+Q30.1
+Agenesis and underdevelopment of nose
+UPPER RESPIRATORY TRACT INFECTION (RESOLVED)
+C39.0
+Upper respiratory tract, part unspecified
+IRON DEFICIENCY ANAEMIA
+D50.9
+Iron deficiency anaemia, unspecified
+PHLEBITIS OF RIGHT HAND AT THE SITE OF IV CANNULA (1 EPISODE OF HIGH GRADE FEVER -103 
+DEGREE F)
+G08
+Intracranial and intraspinal phlebi s and thrombophlebi s
+URINARY TRACT INFECTION (RBC : 7-8)
+N39.0
+Urinary tract infec on, site not specified"
+Pushpa Chowdhury,63,,15,"All lymphocytes, background
+is hemorrhagic",,,172.27,247,nil,<2.0,30.7,nil,,10,watery,alkaline,absent,0,clear,absent,1.006,nil,Ver go & 3-4 episodes of vomi ng.,The pa ent was admi ed with above men oned complaints and treated conserva vely. Relevant inves ga ons were done & reports are a ached to the file. She is now being discharged in hemodynamically stable condi on.,"LOWER RESPIRATORY TRACT INFECTION, UNCONTROLLED TYPE 2 DIABETES MELLITUS
+J22
+Unspecified acute lower respiratory infec on"
+Vikash Kumar,26,,<10,Few lymphocytes only,,,234.6,nil,nil,3.8,nil,nil,,10,straw,alkaline,absent,0,clear,absent,1.05,nil,"Fever for 5 days. Headache , Drowsiness.","26 years old gentleman was admi ed with complains of fever for 5 days. Being a  resident of Bihar he 
+was treated by local doctors to which he was not responding. On admission he was severely restless, 
+delirious and psycho c. He had no history of alcohol and substance abuse. He had to be sedated and 
+empirical treatment started with IV Ce riaxone, vancomycin & Acyclovir for suspected encephali s. 
+He had reports MPDA  -ve , Dengue NS1 -ve, Widal -ve, Typhi dot IgM -ve, LFT revealed jaundice with 
+Hepa s. TSH was 0.63. He was referred to Dr. S.B. Ganguly (MD/DM - Gastro) & opinion was taken. 
+NCCT brain was WNL. Serum NH3 was WNL Neurology advice was taken from Dr. S.S. Choudhury 
+(MD/DM- Neurology). Acyclovir was stopped for deranged LFT, Leptospira IgM cause +ve. Ce riaxone 
+& Vancomycin were stopped & Amoxycillin & Doxycycline were started CSF study revealed cell < 10 - 
+Lymphocytes, Sugar - 57.6, CL-102, Microprotein -234, ADA-3.8, HSV DNA (1&2) -nega ve. LP was 
+done by Anaesthesiologist Dr. Shantanu Biawas. He is being discharged in a hemodynamically stable 
+state, afebrile, clear sensorium, able to move & eat properly. Bilirubin-2.6, SGOT- 179, SGPT- 167, 
+ALB-2.5, TP -5.6, Blood c/s aerobic = no growth Leptospira IgM = 10.13 (Equivocal), Urine c/s = no 
+growth, Amylase - 72, Lipase-107, HBsAg -ve, An HCV -ve, IgM HAV & IgM HEV = report pending, 
+USG= Splenomegaly","(1) FEVER AND ALTERED SENSOTORIUM - ? VIRAL ENCEPHALITIS R50.9 Fever, unspecified (2) ? LEPTOSPIROSIS A27.9 Leptospirosis, unspecified (3) HEPATITIS B17.9 Acute viral hepa s, unspecified (4) HYPOALBUMINEMIA R77.0 Abnormality of albumin (5) HYPOTHYROIDISM E03.9 Hypothyroidism, unspecified"
+Abid Hussain,58,,5,lymphocytes,,,219.9,172.7,nil,nil,nil,nil,,10,watery,alkaline,absent,0,clear,absent,1.005,nil,Seizure episode at residence - Admission outside - > Transferred for be er care.,"The pa ent admi ed in ICU with above men oned reasons. Extubated on 18/10/2024. Relevant inves ga ons were done. He was managed conserva vely. He was transfused 3 units Human Albumin (20%). He was referred to Dr. Vaibhab Seth and opinion was taken. The pa ent's condi on improved gradually then transferred to general ward. Now he is hemodynamically stable, hence being discharged with male catheter in-situ with the following advices-","SEPSIS WITH SEPTIC SHOCK (ACINETOBACTER BAUMANNII)
+A41.9
+Sep caemia, unspecified
+SEIZURE DISORDER
+G40.0
+Localiza on-related (focal)(par al) idiopathic epilepsy and epilep c syndromes 
+with seizures of localized onset
+DYSELECTROLYTEMIA
+E87.8
+Other disorders of electrolyte and fluid balance, not elsewhere classified"
+Shreya Chakraborty,22,,<10,"smears show occasional 
+lymphocytes only.",,,56,52.8,nil,3.8,nil,nil,,10,watery,alkaline,absent,0,slightly hazy,absent,1.01,nil,"Altered sensorium, right sided hemineglect","The pa ent was admi ed with above men oned reason. Relevant inves ga ons were done and 
+diagnosis made. She was referred to Dr. Swa Kumar (Neuro) and her advice was followed. Gradually 
+the pa ent improved. Now she is being discharged in hemodynamically stable condi on with the 
+following advices
+MEDCIATION ON DISCHARGE : 
+TAB PANTOP 40 MG - 1 TAB ONCE DAILY BEFORE BREAKFAST TO CONTINUE. 
+TAB TRYPTOMER 10 MG - 1 TAB ONCE DAILY AT BED TIME TO CONTINUE. 
+TAB DALSTEP 10 MG - 1 TAB TWICE DAILY TO CONTINUE. 
+CAP SCLERIFUMA 120 MG - 1 CAP TWICE DAILY FOR 1 MONTH. 
+SYP EMTY - 15 ML AT BED TIME FOR 10 DAYS. 
+TAB FORCAN 150 MG - 1 TAB ONCE DAILY FOR 10 DAYS. 
+TERBEST CREAM TO APPLY LOCALLY TWICE DAILY FOR 10 DAYS. 
+TAB ZOFER 4 MG - 1 TAB TWICE DAILY FOR 5 DAYS.",DYMYELINATING DISEASE PROBABLY MULTIPLE SCLEROSIS (? RRMS)
+Aloke Sarkar,76,,<10,"smears show few lymphocytes
+ only. No others cells seen",,,107,19,nil,6.3,nil,nil,,10,slightly grayish,alkaline,absent,0,hazy,absent,1.007,nil,,,
+B/O Monisha Barman,18days,,25,,,,127,57,nil,nil,nil,99,,10,Whitish,alkaline,absent,0,clear,absent,1.1,nil,,,
+Sarat Kumar Chakroborty,68,,5,"smear show few scattered
+ lymphocytes (100%)",,,154,10.6,nil,9,147.9,nil,,10,straw,alkaline,Absent,0,clear,Absent,1.001,nil,"Convulsion like symptom, increased sleepiness, decreased congi on.","Mr. Sarat Kumar Chakraborty 68/M, admi ed on 01//11/24 with complaints of seizure like syndrome, altered mental status from last Monday (26/10/24), primarily admi ed another hospital and transferred here with background of Rectosigmoid CA (operated + Chemo received earlier), AF with FVR, CVA. From Aug' 2024 to Sep' 2024 - > Oct' 24 deteriora on of cogni on, sleepiness, falls, slowness then admited with convulsion at Spandan Hospital. On admission, HR = 126, BP = 120/80, Chest - VBS+, Rigidity of all four limbs U/L tremor - +, Planter severely decreased. In view of subacute decline which is rapid and with parkinson's needs considera on for Autoimmune encephalis s / Paraneo. Plas c encephali s espiecially IgLON5. CSF study done and sent for Autoimmune encephali s panel, Serum paraneoplas c panel. Serum IgLON5. Plan to start Steroid + IVIg. Cardiologist Dr. K. S. Poddar had seen the pa ent for AF + FVR. Now an bio cs started with Inj Monocef 2 gm, IV twice daily + Vancomycin 1 gm IV twice daily, Inj Acyclovir 500, IV thrice daily. Addi onal sent for CIF for comprehensive CNS panel & TB Gene Xpert. Now GCS = E2 V2 M4, Afebrile, HR = 90/min, BP - 120/70, Chest - VBS+ Crepts+, SPO2 - 97% in RA. Prognosis guarded. Pa ent is now being le against medical advice (LAMA) with Central line & Foley's catheter in-situ.Medica on on LAMA : 
+Inj Pan 40 IV twice daily 
+Inj Ondem 4 IV thrice daily 
+Inj Levera 750 IV twice daily 
+.
+Inj Cordarone 600, over 16 hrs 
+Inj UFH 5000 s/c thrice daily 
+Tab Lanoxin 0.25 1/2 tab 5 days in a week 
+Inj Thiamin 100 IV twice daily 
+Inj MVI IV once daily 
+Check CBG thrice daily 
+Inj Monocef 2 gm IV twice daily 
+Inj Vancomycin 1 gm IV twice daily 
+Inj Acyclovir 500 IV thrice daily 
+Tab Rifagut 550 mg twice daily 
+Syp Duphalac 15 ml twice daily 
+Ryle's tube feeding 
+Review with Dr. Swarna Subarna Das, Dr. Vaibhab Seth, Dr. Sanchayan Mondal SOS. ","RECTOSIGMOID CA (OPERATED & CHEMO DONE) - 2016
+C19
+Malignant neoplasm of rectosigmoid junc on
+AUTOIMMUNE ENCEPHALITIS
+G05.8
+Encephali s, myeli s and encephalomyeli s in other diseases classified elsewhere
+PARANEOPLASTIC ENCEPHALITIS ESPECIALLY IgLON 5
+G13.0
+Paraneoplas c neuromyopathy and neuropathy
+ATRIAL FIBRILLATION WITH FAST VENTRICULAR RATE
+I48
+Atrial fibrilla on and flu er
+PARKINSON'S DISEASE
+G20
+Parkinson's disease
+SEPTIC ENCEPHALOPATHY
+A41.9
+Sep caemia, unspecified
+? HYPERAMMONEMIC ENCEPHALOPATH"
+Partha Sengupta,58,,<10,"ploymorphs - 40%
+lymphocytes - 60%",,,91.6,117,nil,1,42,nil,,10,watery,Alkaline,Absent,0,clear,Absent,1.005,nil,"Generalized weakness, drowsy & disorienta on.","Pa ent was treated conserva vely with Oxygen, IV an bio c and other suppor ve care was given. Neurologist Dr. V. Seth & Dr. S. S. Chowdhury had seen the pa ent. Relevant inves ga ons were done. Lumbar puncture done. Mild high protein in CSF. Dr. Leena Mistry & Dr. Shilanjan Roy also seen the pa ent. Now he is being discharged with favourable condi on with Nel Cath in-situ",HEPATIC ENCEPHALOPATHY K76.5 Hepa c veno-occluslve disease PERIPHERAL NEUROPATHY G64 Other disorders of peripheral nervous system LOWER RESPIRATORY TRACT INFECTION J22 Unspecified acute lower respiratory infec on TYPE 2 DIABETES MELLITUS E11.9 DIABETIC MELLITUS
+Papri Saha,56,,485,"lymphocytes - 95%
+ploymorphs - 05%",,,201,173,nil,9,207.4,nil,,10,slightly grayish,Alkaline,Present,1,Slightly hazy ,Slightly present,1.015,nil,Heavy menstrual bleeding since 27/07/2024,"SL # Surgery Date Surgery Name 1 01-Sep-2024 TLH + BSO + Adhesiolysis Anesthesia Type Surgeon Name GA Anaesthe st DR. P. CHAKROBARTY DR. S. RAHMAN The pa ent was admi ed with above men oned complaints. A er admission, TLH (Total Laparoscopic Hysterectomy) + BSO (Bilateral Salpingo-oophorectomy) + Adhesiolysis under GA on 01/08/2024. OT Note : Ports cleaned & draped -> 10 mm supra umbilical port -> Penumoperitoneum created - > Uneven ul - > 3 more 8 mm ancillary port made + direct vision - > Uterus, ovaries, bowel all adhered together - > Frozen pelvis - > Thorough adhesiolysis done - > TLH done following standard protocol - > Vault closed with 2- 0 V loc sutures - > Haemostasis perfect - > 20 ROMO ADK drain placed - > Rectus closed with 1-0 vicryl - > Skin closed with 3-0 monocryl. Procedure was uneven ul. In post opera ve period, she was managed conservatvely & 1 unit PRBC transfusion done. She is now being discharged in hemodynamically stable condi on.","ABNORMAL UTERINE BLEEDING - A N93.9 Abnormal uterine and vaginal bleeding, unspecified"
+"Chandra Mohan
+Sarkar",70,,6,"lymphocytes - 100%
+ploymorphs - 00%
+No abnormal cells
+RBC-a few",,,119,142,nil,2,67,nil,,20,Whitish,Alkaline,Absent,0,clear,Slightly present,1.002,nil,The pa ent presented with in a state of unconsciousness for 2 hours.,"The pa ent was admi ed in ICU with above men oned reason. Relevant inves ga ons were done done. He was managed conserva vely. He was monitored regularly. The pa ent's condion improved, Then transferred to general ward. Now he is hemodynamicloaly stable on discharge with Silicon catheter in-situ (25/09/25).","MAJOR HYPOGLYCEMIA E16.2 Hypoglycaemia, unspecified UROSEPSIS A41.8 Other specified sep caemia"
+Profulla K Das,80,,<10,Few lymphocytes,,,150,84,nil,<3,39,nil,,20,Watery,Alkaline,Absent,0,clear,Absent,1.001,nil,Generalized weakness & lethargy for 3 weeks.,"The pa ent was admi ed with above men oned complains. Relevant inves ga ons were done. He was managed conserva vely. He was referred to Dr. V. Sheth (Neurologist) and Dr. K. S. Poddar (Cardiologist) and opinions were taken. Central venous catheteriza on was done (USG guided) on 01/03/25. NPH, Empty Sella, UTI, AF, Mul infarct were diagnosed and the pa ent was shi ed to ICU for be er management. He was also referred to Dr. Ambarish Bha acharya (Medicine) and his opinion was taken. He was transfused 9 units Human Albumin (20%). The pa ent's condi on improved gradually then shi ed to general ward. Now he is hemodynamically stable and is being discharged with Ryle's tube and Catheter in-situ.","SEVERE HYPONATREMIA, HYPOKALEMIA, HYPOCALCEMIA E87.1 Hypo-osmolallty and hyponatraemia MULTIINFARCT STATE WITH VASCUALR DEMENTIA F01.9 Vascular demen a, unspecified NORMAL PRESSURE HYDROCEPHALUS & EMPTY SELLA G91.2 Normal-pressure hydrocephalus PROSTATOMEGALY WITH OBSTRUCTIVE UROPATHY N41.0 Acute prosta s ACUTE CORONARY SYNDROME WITH REGIONAL WALL MOTION ABNORMALITY & PULMONARY ARTERIAL HYPERTENSION I25.4 Coronary artery aneurysm ATRIAL FIBRILLATION I48 Atrial fibrilla on and flu er UROSEPSIS WITH SEPTIC ENCEPHALOPATHY A41.9 Sep caemia, unspecified [ URINE C/S : ESCHERICHIA COLI, BLOOD C/S : PSEUDOMONAS & ENTEROCOCCUS ] B96.2 Escherichia coli [E. coli] as the cause of diseases classified to other chapters MODERATE TO SEVERE HYPOALBUMINEMIA R77.0 Abnormality of albumin"
+Bani Chakroborty,78,,<10,Few lymphocytes,,,<2,95,nil,<2,33,nil,,10,Watery,Alkaline,Absent,0,Clear,Absent,1.015,nil,,,
+Pratik Ranjan,31,,<10,"Few lymphocytes
+RBC- Few",,,83,34,nil,nil,nil,nil,,10,Watery,Alkaline,Absent,0,Clear,Absent,1.005,nil,CSF RHINORRHEA,"The pa ent was evaluated and started on an bio cs therapy and management of headache and 
+vomi ng. Internal medicine referred and neuromedicine referrd was done and advice was followed. 
+lumbar puncture done, which did not reveal signss of meningi s. CT cisternography was done, which 
+revealed leakage of dye from the le sphenoid sinus, ethmoid sinus as well as frontal sinus and 
+extensive skull base defect. The pa ent was then transferred to higher centre for opera ve 
+interroga on with IV cannula in situ.","TRAUMATIC BASE OF SKULL FRACTURE WITH CSF RHINORRHEA S02.9 Fracture of skull and facial bones, part unspecified"
+Biswajit Bose,60,,<10,Occasional lymphocytes,,,135,22,nil,11.7,29,nil,,15,pale yellow ,Alkaline,Absent,0,Clear,Absent,1.001,nil,,,
+Uttam Mahato,53,,4850,"Lymphocytes - 10%
+Polymorphs - 85%
+Mononuclear cell - 05%
+RBC - A few",,,222,1,nil,22.1,nil,nil,,30,Grayish,Alkaline,Absent,0,Slightly Hazy,Slightly Present ,1.005,nil,Complaints of pain abdomen for 4 days with fever for 2 days.,"Pa ent was admi ed for above men on reason.relevant inves ga ons were done and reports are a ached. He was managed with IV fluids, IV an bio cs and other necessary medica on. he was referred to DR. ATANU PAL (Nephrologist) and DR.VAIBHAV SETH (Neurologist) for their valuable opinion. Now pa ent party wants to take leave against medical advice. To proceed with ongoing medica on. ONGOING MEDICATION : INJ MEROTEC 1GM - IV THRICE DAILY. TAB AZITHRAL 500 MG - 1 TAB ONCE DAILY. TAB PYGLO - 1 TAB TWICE DAILY. INJ SUMOL 1 GM - IV THRICE DAILY. SYR DEXLUX - 20 ML AT BED TIME. TAB ACOGUT ER 300 MG - 1 TAB ONCE DAILY. TAB RANTAC 300 MG - 1 TAB ONCE DAILY. INJ PROTIN 1 AMP - IV IF NECESSARY. INJ ONDEM 4 MG - IV THRICE DAILY. INJ HYDROCORT 100 MG - IV THRICE DAILY. NEBU WITH FORACORT - 8 HOURLY. TAB ZAPIZ 0.5 MG - 1 TAB ONCE DAILY.","SEPSIS INDUCED ACUTE KIDNEY INJURY (IN RESOLVING STAGE) S37.0 Injury of kidney SEPSIS (SUSPECTED VIRAL MENINGITIS) WITH EPISODIC RIGOR AND DESATURATION A41.9 Sep caemia, unspecified"
+Subrata Karmakar,40,,10,Few lymphocytes,,,105.9,91,nil,5.63,10,nil,,20,clear,Alkaline,Absent,0,Clear,absent,1.009,nil,,,
+B/o Manisha Rana,04m,,480,"polymorphic 5%, lymphocytes 94%,
+ monocytes 1%",,,224,16.42,57,99,nil,nil,,10,redish,Alkaline,present,1,hazy,present,1.001,nil,,,
+Lalita Gayen,56,,<10,"ploymorphs - 05%
+lymphocytes - 60%",,,83,99,nil,31,nil,nil,,40,straw,Alkaline,Present,1,Slightly Hazy,Slightly Present ,1.001,"Smears prepared from the centrifuged 
+deposits show occasional lymphocytes 
+and fair number of RBC's. No 
+unequivocal malignant cell is seen","High grade fever with chill and rigor, mul ple episodes of vomi ng followed by unconsciousness - > can't recognise people - > gasping pa ern of respira on. History of abdominal pain with radia on to back.","Pa ent was admi ed with above men oned complains. Relevant inves ga ons were sent for and she was 
+managed conserva vely ini ally. She was intubated for airway protec on. Started on Meropenem, Clindamycin 
+and Doxycycline. Noradrenaline infusion started via central catheter. She was extubated, clinically improved. BP 
+Stable. However following day developed respiratory distress again. NIV was ini ated but had to be again 
+intubated, put on VCV (Mechanical ven la on). CPAP trial failed yesterday. Referred to Dr. S. Ghosh (Chest), Dr. 
+S. S. Choudhuri (Neuro), Dr. T. Das (Nephro) for valuable opinion. She was started on Hemodialysis on 03/07/25 
+& 04/07/2025. An bio cs escalated to Minocycline, Metrogyl added. CSF inconclusive. Pa ent rela ves do not 
+want further management in this hospital and now transferred her with leave against medical advice with Ryle’
+s tube, Foley’s catheter, Le jugular central line, Right femoral dialysis line and ET Tube in-situ. 
+ONGOING MEDICATION - 
+Tab Fusys DT 50 mg  2 tabs once daily 
+Tab Minofed 100 mg 1 tab twice daily 
+Tab Briv 50 mg 1 tab twice daily 
+Inj Meroreach 500 mg IV thrice daily 
+Tab Ursokem 300 mg 1 tab twice daily 
+Inj Dalacin C 600 mg IV thrice dailyTab Waklert 50 mg 3 tabs once daily 
+Tab AB Phylline N 1 tab twice daily 
+Inj Pan 40 mg IV once daily 
+Inj Zofer 4 mg IV thrice daily 
+.
+Check CBG four mes daily + Inj Human Actrapid s/c thrice daily 
+Syp Hemfer 10 ml twice daily 
+Nebs with Foracort twice daily 
+Nebs with Duolin four mes daily 
+Tab Feburic 40 mg 1 tab once daily 
+Prohance Renal 2 scoops twice daily 
+Inj Lantus 6 U s/c once daily 
+Cap Rocaltrol 1 cap once daily 
+Tab Phostat 667 mg 1 tab thrice daily 
+Tab Renolog 1 tab twice daily 
+Tab Rosuvas F 10 mg 1 tab once daily 
+Tab Thyronorm 50 mcg once daily before breakfast 
+Next Dialysis advice on 06/07/2025. ","URINARY TRACT INFECTION N39.0 Urinary tract infec on, site not specified RESPIRATORY TRACT INFECTION C39.0 Upper respiratory tract, part unspecified SEPTICEMIA WITH SEPTIC SHOCK A41.9 Sep caemia, unspecified ACUTE KIDNEY INJURY S37.0 Injury of kidney METABOLIC ENCEPHALOPATHY (? UREMIC) WITH SEIZURE, ANAEMIA, HYPOALBUMINEMIA E88.9 Metabolic disorder, unspecified"
+Paritosh Ch  Saha,60,,5,"polymorphic 5%, lymphocytes 90%, 
+monocytes 5%,RBC few",,,93.8,87.7,nil,15.1,17.87,nil,,10,colourless,Alkaline,Present,1,clear,absent,1.006,nil,"Fever, restlessness",Pa ent admi ed with above symptoms. Treated conserva vely. Seen by neurologist (Dr.S.S.Chowdhury). Pa ent afebrile and hemodynamically normal. Pa ent is now discharged and referred to neurology center for further management.,"MULTIPLE LACUNAR INFARCTS WITH MICROBLEEDS G46.7 Other lacunar syndromes (I60-I67) NPH (?) (NORMAL PRESSURE HYDROCEPHALUS) G91.2 Normal-pressure hydrocephalus SEVERE HYPERTENSION I10 Essen al (primary) hypertension SEPTICEMIA A41.9 Sep caemia, unspecified ACUTE CONFUSIONAL STATE"
+Tulu Sk,48,,<10,lymphocytes only,,,150,70,nil,13,15,nil,,30,colourless,Alkaline,Absent,0,Clear,Absent,1.005,nil,Acute lower back pain with progressive difficulty in walk with motor weakness,"The pa ent was admi ed with above men oned complaints. Relevant inves ga ons were done. Treated conserva vely. Referred to Dr. S. S. Chowdhury (Neuro) and his advice was followed. He was managed with IV Methylprednisolone 2.5 gm, IV Immunoglobulin infusion total 100 gm. Gradually pa ent's condi on got be er. He is now being discharged with hemodynamically stable condi on.","CIDP (CHRONIC INFLAMMATORY DEMYELINATING POLY NEUROPATHY), RADICULOPATHY L5 REGION G37.8 Other specified demyelina ng diseases of central nervous system"
+Chandranath Ghosh,,,<10,"Smears show scanty
+ lymphocytes",,,74,63,nil,4.3,30,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.005,nil,"The pa ent was admi ed with bilateral pedal edema for last 10 days along with inability to walk and loss of appe te. Urinary incon nence for 8 days, memory loss.","The pa ent was admi ed in ICU with above men oned reasons. NCCT Brain on 06/08/25 showed diffuse cerebral atrophy with chronic ischaemic insult. He was referred to Dr. S. S. Chowdhury (Neuro) and his advice was followed. MRI Brain on 07/08/25 showed dispropor onate dilata on of the supratentorial ventricles in comparison to cebebral sulci with periventricular inters al edema and accentua on of flow void in cerebral aqueduct with a possibility of normal pressure hydrocephalus. CSF drainage of 30 ml was done under LA from L4-5 space on 07/08/25 and 30 ml was drained on 08/08/25. Pa ent was managed conserva vely with IV fluid, IV an bio cs and other suppor ve medica on. Gradually, the condi on of the pa ent improved and now he is being discharged in clinically and hemodynamically stable condi on with Foley's catheter & Ryle's tube in-situ and transported through ambulance.","DEMENTIA F03 Unspecified demen a NORMAL PRESSURE HYDROCEPHALUS (NPH) G91.9 Hydrocephalus, unspecified ACUTE KIDNEY INJURY S37.0 Injury of kidney ACUTE DEHYDRATION E86 VOLUME DEPLETION DEHYDRATION"
+Ardhendu Roy,75,,<10,Scanty lymphocytes only,,,109.3,81,nil,8.6,13.4,nil,,30,colourless,Alkaline,Absent,0,Clear,Absent,1.005,"Smears show lymphocytes only.
+ No other cells seen",REASON FOR ADMISSION,HOSPITAL COURSE INCLUDING OPERATIONS,DIAGNOSIS :
+Abhijit De,55,,<10,"Few lymphocytes only. 
+No other cells seen.",,,47.4,93,nil,nil,nil,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.005,nil,,,
+Pradip Kumar Saha,68,,<10,Scanty lymphocytes only,,,61,171,nil,24,nil,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.005,nil,,,
+Sharmila Biswas,52,,<10,Scanty lymphocytes only,,,43,84,nil,8.4,<25,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.005,nil,"Drowsy, disoriented.","Pa ent was admi ed with above men oned complaints. Relevant inves ga ons were sent for and 
+reports are a ached. Treated conserva vely with IV an bio c and other suppor ve medicines. LP 
+done. She was intubated and put on T Piece - > Later extubated and clinically she is improved, hence 
+now being discharged with hemodynamically stable condi on. ",
+Srabani Dey,44,,<10,"Smear show few lymphocytes 
+only.",,,43,107,nil,19.9,<25,nil,,30,colourless,Alkaline,Absent,0,Clear,Absent,1.005,nil,"Fever for 2 days, produc ve cough with sore throat with rashes over the body with malaise, neck pain, retrosternal pain, headache, photophobia & dehydra on present.","The pa ent was admi ed on 12/09/2024 for the above men oned reason. Relevant inves ga ons 
+were done (NCCT MRI Brain + Lumbar Puncture) and she was managed conserva vely with IV 
+an bio cs (Inj Meronem 1 gm, Inj Ciprofloxacin 100 ml, Inj Xone 2 gm, Inj Piozo 4.5 gm) & other 
+suppor ve care was given. She was also referred to Neurologist on OPD basis and to Ophthalmologist 
+for papilledema. Pa ent was ini ally thought to have meningi s but CSF analysis shows no infec on. 
+Thus further inves ga on concluded the present diagnosis. Gradually, pa ent's condi on has now 
+improved and the she is being discharged in hemodynamically stable condi on. ","HYPOPLASTIC LEFT TRANSVERSE & SIGMOID SINUS WITH SIGN OF MENINGISM (CEREBRAL VENOUS 
+THROMBOSIS)
+Q30.1
+Agenesis and underdevelopment of nose
+UPPER RESPIRATORY TRACT INFECTION (RESOLVED)
+C39.0
+Upper respiratory tract, part unspecified
+IRON DEFICIENCY ANAEMIA
+D50.9
+Iron deficiency anaemia, unspecified
+PHLEBITIS OF RIGHT HAND AT THE SITE OF IV CANNULA (1 EPISODE OF HIGH GRADE FEVER -103 
+DEGREE F)
+G08
+Intracranial and intraspinal phlebi s and thrombophlebi s
+URINARY TRACT INFECTION (RBC : 7-8)
+N39.0
+Urinary tract infec on, site not specified"
+Gouri Nandy,,,<10,Few lymphocytes only. ,,,59,63,nil,16.5,<25,nil,,15,colourless,7.5 (Alkaline),Absent,0,Clear,Absent,1.005,nil,Ver go & 3-4 episodes of vomi ng.,The pa ent was admi ed with above men oned complaints and treated conserva vely. Relevant inves ga ons were done & reports are a ached to the file. She is now being discharged in hemodynamically stable condi on.,"LOWER RESPIRATORY TRACT INFECTION, UNCONTROLLED TYPE 2 DIABETES MELLITUS
+J22
+Unspecified acute lower respiratory infec on"
+Joydeb Bag,70,,4,100% all lymphocytes.,,,45,77.1,nil,0.3,42.3,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,"Fever for 5 days. Headache , Drowsiness.","26 years old gentleman was admi ed with complains of fever for 5 days. Being a  resident of Bihar he 
+was treated by local doctors to which he was not responding. On admission he was severely restless, 
+delirious and psycho c. He had no history of alcohol and substance abuse. He had to be sedated and 
+empirical treatment started with IV Ce riaxone, vancomycin & Acyclovir for suspected encephali s. 
+He had reports MPDA  -ve , Dengue NS1 -ve, Widal -ve, Typhi dot IgM -ve, LFT revealed jaundice with 
+Hepa s. TSH was 0.63. He was referred to Dr. S.B. Ganguly (MD/DM - Gastro) & opinion was taken. 
+NCCT brain was WNL. Serum NH3 was WNL Neurology advice was taken from Dr. S.S. Choudhury 
+(MD/DM- Neurology). Acyclovir was stopped for deranged LFT, Leptospira IgM cause +ve. Ce riaxone 
+& Vancomycin were stopped & Amoxycillin & Doxycycline were started CSF study revealed cell < 10 - 
+Lymphocytes, Sugar - 57.6, CL-102, Microprotein -234, ADA-3.8, HSV DNA (1&2) -nega ve. LP was 
+done by Anaesthesiologist Dr. Shantanu Biawas. He is being discharged in a hemodynamically stable 
+state, afebrile, clear sensorium, able to move & eat properly. Bilirubin-2.6, SGOT- 179, SGPT- 167, 
+ALB-2.5, TP -5.6, Blood c/s aerobic = no growth Leptospira IgM = 10.13 (Equivocal), Urine c/s = no 
+growth, Amylase - 72, Lipase-107, HBsAg -ve, An HCV -ve, IgM HAV & IgM HEV = report pending, 
+USG= Splenomegaly","(1) FEVER AND ALTERED SENSOTORIUM - ? VIRAL ENCEPHALITIS R50.9 Fever, unspecified (2) ? LEPTOSPIROSIS A27.9 Leptospirosis, unspecified (3) HEPATITIS B17.9 Acute viral hepa s, unspecified (4) HYPOALBUMINEMIA R77.0 Abnormality of albumin (5) HYPOTHYROIDISM E03.9 Hypothyroidism, unspecified"
+ Nirendra kaur,67,,20,All lymphocytic,,,228,68,nil,16.2,59,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,Seizure episode at residence - Admission outside - > Transferred for be er care.,"The pa ent admi ed in ICU with above men oned reasons. Extubated on 18/10/2024. Relevant inves ga ons were done. He was managed conserva vely. He was transfused 3 units Human Albumin (20%). He was referred to Dr. Vaibhab Seth and opinion was taken. The pa ent's condi on improved gradually then transferred to general ward. Now he is hemodynamically stable, hence being discharged with male catheter in-situ with the following advices-","SEPSIS WITH SEPTIC SHOCK (ACINETOBACTER BAUMANNII)
+A41.9
+Sep caemia, unspecified
+SEIZURE DISORDER
+G40.0
+Localiza on-related (focal)(par al) idiopathic epilepsy and epilep c syndromes 
+with seizures of localized onset
+DYSELECTROLYTEMIA
+E87.8
+Other disorders of electrolyte and fluid balance, not elsewhere classified"
+Priyobrata Sarkar,39,,10," 100% lypholytes, RBC present",,,217,88,nil,,64,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.02,No malignent cell identified on smear examined.,"Altered sensorium, right sided hemineglect","The pa ent was admi ed with above men oned reason. Relevant inves ga ons were done and 
+diagnosis made. She was referred to Dr. Swa Kumar (Neuro) and her advice was followed. Gradually 
+the pa ent improved. Now she is being discharged in hemodynamically stable condi on with the 
+following advices
+MEDCIATION ON DISCHARGE : 
+TAB PANTOP 40 MG - 1 TAB ONCE DAILY BEFORE BREAKFAST TO CONTINUE. 
+TAB TRYPTOMER 10 MG - 1 TAB ONCE DAILY AT BED TIME TO CONTINUE. 
+TAB DALSTEP 10 MG - 1 TAB TWICE DAILY TO CONTINUE. 
+CAP SCLERIFUMA 120 MG - 1 CAP TWICE DAILY FOR 1 MONTH. 
+SYP EMTY - 15 ML AT BED TIME FOR 10 DAYS. 
+TAB FORCAN 150 MG - 1 TAB ONCE DAILY FOR 10 DAYS. 
+TERBEST CREAM TO APPLY LOCALLY TWICE DAILY FOR 10 DAYS. 
+TAB ZOFER 4 MG - 1 TAB TWICE DAILY FOR 5 DAYS.",DYMYELINATING DISEASE PROBABLY MULTIPLE SCLEROSIS (? RRMS)
+Pradip Barman,85,,4,All lymphocytes,,,47,139,nil,5.7,21,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,,,
+sahanara Begum,62,,120,"Lymphocytes 90%, Neutrophil 10%",,,131.52,72,nil,2,18.6,nil,,30,colourless,Alkaline,Absent,0,Clear,Absent,1.02,No malignent cell identified on smear examined.,,,
+Rupam Halder,25,,4,All lymphocytes,,,113,68,nil,2,15.4,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,"Convulsion like symptom, increased sleepiness, decreased congi on.","Mr. Sarat Kumar Chakraborty 68/M, admi ed on 01//11/24 with complaints of seizure like syndrome, altered mental status from last Monday (26/10/24), primarily admi ed another hospital and transferred here with background of Rectosigmoid CA (operated + Chemo received earlier), AF with FVR, CVA. From Aug' 2024 to Sep' 2024 - > Oct' 24 deteriora on of cogni on, sleepiness, falls, slowness then admited with convulsion at Spandan Hospital. On admission, HR = 126, BP = 120/80, Chest - VBS+, Rigidity of all four limbs U/L tremor - +, Planter severely decreased. In view of subacute decline which is rapid and with parkinson's needs considera on for Autoimmune encephalis s / Paraneo. Plas c encephali s espiecially IgLON5. CSF study done and sent for Autoimmune encephali s panel, Serum paraneoplas c panel. Serum IgLON5. Plan to start Steroid + IVIg. Cardiologist Dr. K. S. Poddar had seen the pa ent for AF + FVR. Now an bio cs started with Inj Monocef 2 gm, IV twice daily + Vancomycin 1 gm IV twice daily, Inj Acyclovir 500, IV thrice daily. Addi onal sent for CIF for comprehensive CNS panel & TB Gene Xpert. Now GCS = E2 V2 M4, Afebrile, HR = 90/min, BP - 120/70, Chest - VBS+ Crepts+, SPO2 - 97% in RA. Prognosis guarded. Pa ent is now being le against medical advice (LAMA) with Central line & Foley's catheter in-situ.Medica on on LAMA : 
+Inj Pan 40 IV twice daily 
+Inj Ondem 4 IV thrice daily 
+Inj Levera 750 IV twice daily 
+.
+Inj Cordarone 600, over 16 hrs 
+Inj UFH 5000 s/c thrice daily 
+Tab Lanoxin 0.25 1/2 tab 5 days in a week 
+Inj Thiamin 100 IV twice daily 
+Inj MVI IV once daily 
+Check CBG thrice daily 
+Inj Monocef 2 gm IV twice daily 
+Inj Vancomycin 1 gm IV twice daily 
+Inj Acyclovir 500 IV thrice daily 
+Tab Rifagut 550 mg twice daily 
+Syp Duphalac 15 ml twice daily 
+Ryle's tube feeding 
+Review with Dr. Swarna Subarna Das, Dr. Vaibhab Seth, Dr. Sanchayan Mondal SOS. ","RECTOSIGMOID CA (OPERATED & CHEMO DONE) - 2016
+C19
+Malignant neoplasm of rectosigmoid junc on
+AUTOIMMUNE ENCEPHALITIS
+G05.8
+Encephali s, myeli s and encephalomyeli s in other diseases classified elsewhere
+PARANEOPLASTIC ENCEPHALITIS ESPECIALLY IgLON 5
+G13.0
+Paraneoplas c neuromyopathy and neuropathy
+ATRIAL FIBRILLATION WITH FAST VENTRICULAR RATE
+I48
+Atrial fibrilla on and flu er
+PARKINSON'S DISEASE
+G20
+Parkinson's disease
+SEPTIC ENCEPHALOPATHY
+A41.9
+Sep caemia, unspecified
+? HYPERAMMONEMIC ENCEPHALOPATH"
+Omprakash Agarwal,72,,5,All lymphocytes,,,40.3,79.9,nil,,26.4,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,"Generalized weakness, drowsy & disorienta on.","Pa ent was treated conserva vely with Oxygen, IV an bio c and other suppor ve care was given. Neurologist Dr. V. Seth & Dr. S. S. Chowdhury had seen the pa ent. Relevant inves ga ons were done. Lumbar puncture done. Mild high protein in CSF. Dr. Leena Mistry & Dr. Shilanjan Roy also seen the pa ent. Now he is being discharged with favourable condi on with Nel Cath in-situ",HEPATIC ENCEPHALOPATHY K76.5 Hepa c veno-occluslve disease PERIPHERAL NEUROPATHY G64 Other disorders of peripheral nervous system LOWER RESPIRATORY TRACT INFECTION J22 Unspecified acute lower respiratory infec on TYPE 2 DIABETES MELLITUS E11.9 DIABETIC MELLITUS
+Debasmita Debnath,12,,65,Lymphocytes 96% Polymorphrs 4%,,,52.6,48.5,nil,4.4,14.8,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,Heavy menstrual bleeding since 27/07/2025,"SL # Surgery Date Surgery Name 1 01-Sep-2024 TLH + BSO + Adhesiolysis Anesthesia Type Surgeon Name GA Anaesthe st DR. P. CHAKROBARTY DR. S. RAHMAN The pa ent was admi ed with above men oned complaints. A er admission, TLH (Total Laparoscopic Hysterectomy) + BSO (Bilateral Salpingo-oophorectomy) + Adhesiolysis under GA on 01/08/2024. OT Note : Ports cleaned & draped -> 10 mm supra umbilical port -> Penumoperitoneum created - > Uneven ul - > 3 more 8 mm ancillary port made + direct vision - > Uterus, ovaries, bowel all adhered together - > Frozen pelvis - > Thorough adhesiolysis done - > TLH done following standard protocol - > Vault closed with 2- 0 V loc sutures - > Haemostasis perfect - > 20 ROMO ADK drain placed - > Rectus closed with 1-0 vicryl - > Skin closed with 3-0 monocryl. Procedure was uneven ul. In post opera ve period, she was managed conservatvely & 1 unit PRBC transfusion done. She is now being discharged in hemodynamically stable condi on.","ABNORMAL UTERINE BLEEDING - A N93.9 Abnormal uterine and vaginal bleeding, unspecified"
+Rekha Mitra,73,,5,All lymphocytes,,,61,95,nil,5,80,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.008,No malignent cell identified on smear examined.,The pa ent presented with in a state of unconsciousness for 2 hours.,"The pa ent was admi ed in ICU with above men oned reason. Relevant inves ga ons were done done. He was managed conserva vely. He was monitored regularly. The pa ent's condion improved, Then transferred to general ward. Now he is hemodynamicloaly stable on discharge with Silicon catheter in-situ (25/09/25).","MAJOR HYPOGLYCEMIA E16.2 Hypoglycaemia, unspecified UROSEPSIS A41.8 Other specified sep caemia"
+Samir Chandra,78,,1,All lymphocytes,,,55.09,81.8,nil, Low,6.1,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,Generalized weakness & lethargy for 3 weeks.,"The pa ent was admi ed with above men oned complains. Relevant inves ga ons were done. He was managed conserva vely. He was referred to Dr. V. Sheth (Neurologist) and Dr. K. S. Poddar (Cardiologist) and opinions were taken. Central venous catheteriza on was done (USG guided) on 01/03/25. NPH, Empty Sella, UTI, AF, Mul infarct were diagnosed and the pa ent was shi ed to ICU for be er management. He was also referred to Dr. Ambarish Bha acharya (Medicine) and his opinion was taken. He was transfused 9 units Human Albumin (20%). The pa ent's condi on improved gradually then shi ed to general ward. Now he is hemodynamically stable and is being discharged with Ryle's tube and Catheter in-situ.","SEVERE HYPONATREMIA, HYPOKALEMIA, HYPOCALCEMIA E87.1 Hypo-osmolallty and hyponatraemia MULTIINFARCT STATE WITH VASCUALR DEMENTIA F01.9 Vascular demen a, unspecified NORMAL PRESSURE HYDROCEPHALUS & EMPTY SELLA G91.2 Normal-pressure hydrocephalus PROSTATOMEGALY WITH OBSTRUCTIVE UROPATHY N41.0 Acute prosta s ACUTE CORONARY SYNDROME WITH REGIONAL WALL MOTION ABNORMALITY & PULMONARY ARTERIAL HYPERTENSION I25.4 Coronary artery aneurysm ATRIAL FIBRILLATION I48 Atrial fibrilla on and flu er UROSEPSIS WITH SEPTIC ENCEPHALOPATHY A41.9 Sep caemia, unspecified [ URINE C/S : ESCHERICHIA COLI, BLOOD C/S : PSEUDOMONAS & ENTEROCOCCUS ] B96.2 Escherichia coli [E. coli] as the cause of diseases classified to other chapters MODERATE TO SEVERE HYPOALBUMINEMIA R77.0 Abnormality of albumin"
+Ratan Krishna Paul,56,,5,All lymphocytes,,,52,79,nil,3,11,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+Bhupati Ranjan Chakrabarty,32,,6,All lympholytics,,,44,107,nil,3,6,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,CSF RHINORRHEA,"The pa ent was evaluated and started on an bio cs therapy and management of headache and 
+vomi ng. Internal medicine referred and neuromedicine referrd was done and advice was followed. 
+lumbar puncture done, which did not reveal signss of meningi s. CT cisternography was done, which 
+revealed leakage of dye from the le sphenoid sinus, ethmoid sinus as well as frontal sinus and 
+extensive skull base defect. The pa ent was then transferred to higher centre for opera ve 
+interroga on with IV cannula in situ.","TRAUMATIC BASE OF SKULL FRACTURE WITH CSF RHINORRHEA S02.9 Fracture of skull and facial bones, part unspecified"
+Kabita Chakraborty,63,,2,Mononuclear cells 100%,,,56,125,nil,Low,44.5,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.009,No malignent cell identified on smear examined.,,,
+Aadipta Sarkar,   1M,,10,Predominantly mononuclear cells in a background of RBCs no alypical cell identified.,,,66.1,55.2,nil,,64,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,Complaints of pain abdomen for 4 days with fever for 2 days.,"Pa ent was admi ed for above men on reason.relevant inves ga ons were done and reports are a ached. He was managed with IV fluids, IV an bio cs and other necessary medica on. he was referred to DR. ATANU PAL (Nephrologist) and DR.VAIBHAV SETH (Neurologist) for their valuable opinion. Now pa ent party wants to take leave against medical advice. To proceed with ongoing medica on. ONGOING MEDICATION : INJ MEROTEC 1GM - IV THRICE DAILY. TAB AZITHRAL 500 MG - 1 TAB ONCE DAILY. TAB PYGLO - 1 TAB TWICE DAILY. INJ SUMOL 1 GM - IV THRICE DAILY. SYR DEXLUX - 20 ML AT BED TIME. TAB ACOGUT ER 300 MG - 1 TAB ONCE DAILY. TAB RANTAC 300 MG - 1 TAB ONCE DAILY. INJ PROTIN 1 AMP - IV IF NECESSARY. INJ ONDEM 4 MG - IV THRICE DAILY. INJ HYDROCORT 100 MG - IV THRICE DAILY. NEBU WITH FORACORT - 8 HOURLY. TAB ZAPIZ 0.5 MG - 1 TAB ONCE DAILY.","SEPSIS INDUCED ACUTE KIDNEY INJURY (IN RESOLVING STAGE) S37.0 Injury of kidney SEPSIS (SUSPECTED VIRAL MENINGITIS) WITH EPISODIC RIGOR AND DESATURATION A41.9 Sep caemia, unspecified"
+Piku Manna,3,,5,All lymphocytes,,,34.7,80,nil,,nil,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,,,
+Shahdeo Singh,73,,20,100% lymphocytes,,,31,132,nil,5.7,28,nil,,20,Straw,Alkaline,Absent,0,Slightly hazy,Absent,1.009,Smear prepared from the centrifuge deposite show occasional scatters small lymphocytes mainly unequivalence malignant cell is seen Negative for malignancy.              ,,,
+Md. Mahammad Ali,78,,3,Predominantly  Lymphocyte no malignant cell seen.,,,143.53,86.2,nil,10.1,27,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,"High grade fever with chill and rigor, mul ple episodes of vomi ng followed by unconsciousness - > can't recognise people - > gasping pa ern of respira on. History of abdominal pain with radia on to back.","Pa ent was admi ed with above men oned complains. Relevant inves ga ons were sent for and she was 
+managed conserva vely ini ally. She was intubated for airway protec on. Started on Meropenem, Clindamycin 
+and Doxycycline. Noradrenaline infusion started via central catheter. She was extubated, clinically improved. BP 
+Stable. However following day developed respiratory distress again. NIV was ini ated but had to be again 
+intubated, put on VCV (Mechanical ven la on). CPAP trial failed yesterday. Referred to Dr. S. Ghosh (Chest), Dr. 
+S. S. Choudhuri (Neuro), Dr. T. Das (Nephro) for valuable opinion. She was started on Hemodialysis on 03/07/25 
+& 04/07/2025. An bio cs escalated to Minocycline, Metrogyl added. CSF inconclusive. Pa ent rela ves do not 
+want further management in this hospital and now transferred her with leave against medical advice with Ryle’
+s tube, Foley’s catheter, Le jugular central line, Right femoral dialysis line and ET Tube in-situ. 
+ONGOING MEDICATION - 
+Tab Fusys DT 50 mg  2 tabs once daily 
+Tab Minofed 100 mg 1 tab twice daily 
+Tab Briv 50 mg 1 tab twice daily 
+Inj Meroreach 500 mg IV thrice daily 
+Tab Ursokem 300 mg 1 tab twice daily 
+Inj Dalacin C 600 mg IV thrice dailyTab Waklert 50 mg 3 tabs once daily 
+Tab AB Phylline N 1 tab twice daily 
+Inj Pan 40 mg IV once daily 
+Inj Zofer 4 mg IV thrice daily 
+.
+Check CBG four mes daily + Inj Human Actrapid s/c thrice daily 
+Syp Hemfer 10 ml twice daily 
+Nebs with Foracort twice daily 
+Nebs with Duolin four mes daily 
+Tab Feburic 40 mg 1 tab once daily 
+Prohance Renal 2 scoops twice daily 
+Inj Lantus 6 U s/c once daily 
+Cap Rocaltrol 1 cap once daily 
+Tab Phostat 667 mg 1 tab thrice daily 
+Tab Renolog 1 tab twice daily 
+Tab Rosuvas F 10 mg 1 tab once daily 
+Tab Thyronorm 50 mcg once daily before breakfast 
+Next Dialysis advice on 06/07/2025. ","URINARY TRACT INFECTION N39.0 Urinary tract infec on, site not specified RESPIRATORY TRACT INFECTION C39.0 Upper respiratory tract, part unspecified SEPTICEMIA WITH SEPTIC SHOCK A41.9 Sep caemia, unspecified ACUTE KIDNEY INJURY S37.0 Injury of kidney METABOLIC ENCEPHALOPATHY (? UREMIC) WITH SEIZURE, ANAEMIA, HYPOALBUMINEMIA E88.9 Metabolic disorder, unspecified"
+Sayantan Sarkar ,47,,2,Predominantly Lymphocytes no features of any atypia or malignancy seen.,,,46.51,91,nil,9.8,56,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,"Fever, restlessness",Pa ent admi ed with above symptoms. Treated conserva vely. Seen by neurologist (Dr.S.S.Chowdhury). Pa ent afebrile and hemodynamically normal. Pa ent is now discharged and referred to neurology center for further management.,"MULTIPLE LACUNAR INFARCTS WITH MICROBLEEDS G46.7 Other lacunar syndromes (I60-I67) NPH (?) (NORMAL PRESSURE HYDROCEPHALUS) G91.2 Normal-pressure hydrocephalus SEVERE HYPERTENSION I10 Essen al (primary) hypertension SEPTICEMIA A41.9 Sep caemia, unspecified ACUTE CONFUSIONAL STATE"
+Jayanti Devi,72,,5,All lymphocytes,,,43,65,nil,2.4,20,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.009,No malignent cell identified on smear examined.,Acute lower back pain with progressive difficulty in walk with motor weakness,"The pa ent was admi ed with above men oned complaints. Relevant inves ga ons were done. Treated conserva vely. Referred to Dr. S. S. Chowdhury (Neuro) and his advice was followed. He was managed with IV Methylprednisolone 2.5 gm, IV Immunoglobulin infusion total 100 gm. Gradually pa ent's condi on got be er. He is now being discharged with hemodynamically stable condi on.","CIDP (CHRONIC INFLAMMATORY DEMYELINATING POLY NEUROPATHY), RADICULOPATHY L5 REGION G37.8 Other specified demyelina ng diseases of central nervous system"
+Rabi Chakraborty,68,,6,All lymphocytes,,,99.2,282,nil,21.2,44,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+Amit Das,39,,4,100% Lymphocytes,,,24.24,131.3,nil,0.3,35.8,nil,,20,straw,Alkaline,Slightly Present,,Slightly Hazy,Absent,1.02,Paucicellular of cytological smear shoe occasion. Number of small mature lymphocytes seen in a mild heamologic background. No define evidence of malignancy noted in a examine. Impressive : Negative for amlignance. Note : Please corrected clinicology.,,,
+Koushal Kishor Jaiswal,83,,5,Predominantly Lymphocytes no atypical cells identified on smear examined.,,,74,95.6,nil,1,,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.02,No malignent cell identified on smear examined.,,,
+Ashoke Chowdhary,72,,25,Predominantly Lymphocytes in Proteineccous background .No features of atypia or malignancy seen. Differential count could not separately given due to low cell count .All lymphocytes present.,,,128,78.3,nil,1,42.7,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+Aritra Das,31,,5,All lymphocytes background is hemorrhage,,,154,78,nil,,nil,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,,,
+Ashutosh Das,67,,5,All lymphocytes. RBC present,,,68,131,nil,<0.02,45,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.009,No malignent cell identified on smear examined.,"Fever, cough.","Pa ent suddenly started gasping. He was intubated and ven lated. Pa ent was also unconscious for a number of days. Pa ent had blood mixed sputum expectora on. As his condi on improved he was extubated and put on BIPAP. Now pa ent is conscious, obeying commands but disoriented at mes. He is afebrile and maintaining normal SPO2 on room air. He was seen by Cri cal Care Expert, Pulmonologist, Neurologist, Cardiologist. Pa ent has received 3 units PRBC transfusion and Albumin infusion and 4 units FFP transfusion.","LOWER RESPIRATORY TRACT INFECTION J22 Unspecified acute lower respiratory infec on SEPTIC SHOCK, MODS A41.9 Sep caemia, unspecified DYSELECTROLYTAEMIA E87.8 Other disorders of electrolyte and fluid balance, not elsewhere classified"
+Parama Pal ,41,,30,Predominantly degenerated cells admixed with few degenerated cells and epithelial cells mononuclear.,,,248.3,14.7,nil,,33.2,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No M cell noticed.,LEFT PARIETAL RING ENHANCING LESION ? TB (TUBERCULOSIS) ? NCC,SL # Surgery Date Surgery Name 1 11-Aug-2024 Diagnos c LP RESP:20 cpm TEMP: 97 degree F Anesthesia Type Surgeon Name LOCAL Anaesthe st TAMAJIT CHAKRABORTY The pa ent was admi ed with above men oned reason. Relevant inves ga ons were done. Procedure : Diagnos c LP was done under LA on 11/08/2024. The post opera ve period is uneven ul. She is hemodynamically stable on discharge.,LEFT PARIETAL RING ENHANCING LESION ? TB (TUBERCULOSIS) ? NCC
+Gopika Ranjan Ray,70,,5,All lymphocytes,,,62,101,nil,<0.02,62,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,"Cough and shortness of breath, fluctua ng level of consciousness.","Ini ally the cough & shortness of breath was diagnosed to be done to LRTI and managed conserva vely. Drowsiness was progressive, diagnosed as sepsis with AKI. Shi ed to ICU & management given. Sensorium improved then shi ed to ward. Again drowsiness was progressive. Sepsis & Metabolic parameters were normal except high Ammonia. Neurology & Gastroenterology medicine evalua on was done. Brain functon was refractory and unresponsive. Pa ent is now being discharged in hemodynamically stable condi on with Ryle's tube & Catheter in situ with drowsiness and par ally arousable state.","SEPTIC METABOLIC ENCEPHALOPATHY E88.9 Metabolic disorder, unspecified LOWER RESPIRATORY TRACT INFECTION - SEPSIS - ACUTE KIDNEY INJURY (RESOLVED) J22 Unspecified acute lower respiratory infec on DEMENTIA F03 Unspecified demen a ? POST SEPTIC NMS PARKINSON'S DISEASE G20 Parkinson's disease"
+Chandan Ganguly ,69,,5,All lyphocytes.,,,92.8,210,nil,<3.0,10,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,"Unconsciousness, shortness of breath followed by gasping and shfited to another hospital with ven lator support.","Pa ent was admi ed with ven lator support with IV an bio c, an eme c, an convulsant drug. Norad support was given and trated - > Now stopped. Fever raised now subsided. Neurologist Dr. V. Seth had seen the pa ent and reviewed. Weaning of ven la on failed. Now the pa ent is being transfererd to Medical College & Hospital for further treatment with Ven lator & Central line with Foley's caheter in-situ.","SEPTIC SHOCK A41.9 Sep caemia, unspecified LOWER RESPIRATORY TRACT INFECTION WITH TYPE 1 RESPIRATORY FAILURE J22 Unspecified acute lower respiratory infec on ACUTE DECOMPENSATED HEART FAILURE WITH DILATED CARDIOMYOPATHY I50.9 Heart failure, unspecified STATUS POST PPM, TYPE 2 DIABETES MELLITUS E11.9 DIABETIC MELLITUS"
+Arka Sarkar ,,,5,100% lymphocytes,,,76,99,nil,<0.02,8,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,"Sudden loss of consciousness with 1 episode of generalized weakness, intermi ent fever & headache.","Pa ent was admi ed with above men oned complaints. Managed conserva vely ini ally in ICU, later on general ward. Opinion was taken from Dr. S. S. Chowdhury (Neurologist) - opinion noted and followed. CSF study done.",ACUTE ENCEPHALITIS SYNDROME A85.8 Other specified viral encephali s
+Rita Ganguly,65,,2,Lymphocytes100% RBC Present ++,,,76.9,51.8,nil,<3.0,50,nil,,25,colourless,Alkaline,Absent,0,Clear,Absent,1.03,No malignent cell identified on smear examined.,Alleged history of fall on road accidentally on 27/08/24 at 5;30 pm leading to injury right groin.,"SL # Surgery Date Surgery Name 1 01-Aug-2024 RESP:20 cpm TEMP: Normal Anesthesia Type Surgeon Name SPINAL Anaesthe st SOUMYADIP DUTTA SHARMILA MONDAL Pa ent was admi ed with above men oned complaints. A er admission, correc on length angula on & rota on of right hip and stabiliza on with three hip screws done under SA on 01/08/24. Implant : Titanium. Procedure was uneven ul. She is now being discharged in a hemodynamically stable condi on.","VALGUS IMPACTED FRACTURE OF RIGHT HIP M21.0 Valgus deformity, not elsewhere classified"
+baby of Sabana Ahmed,       3d,,8,"All lymphocytes, RBC present",,,134,52,nil,,20,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,"Severe respiratory distress at birth with chest retrac on, fast breathing.","D 2 a baby boy / preterm / AGA was delivered by emergency LUCS under SA due to ac ve dribbling at CARE & CURE Hospital, Barasat on 26/03/2023 at 04:52 pm. Developed respiratory distress since birth & put on CPAP. On D 2 received NS bolus. Baby was referred to Spandan Hospital, admi ed in NICU & put on CPAP given (PEEP = 6, FIO2 = 80%), Surfactant given by INSURE using complete asepsis technique. Inj Tazac, Inj Amikacin, Cap Gas done, IVF with 10% D given. All relevant inves ga on were done. On D 4 (29/03/23) L.P. done. CSF showed increased protein. ECHO done : Report shows Small OS ASD with L - > R Shunt, Good biventricular func on. Chest X-ray - Haziness in le upper zone - ? Infec ve changes. An bio cs change to Inj Meropenem & Inj Vancomycin. Baby shows gradual improvement, respiratory distress decreased. CPAP stopped & put on Moist O2 with nasal cannula. On D 5 , oral topic feed started, gradually increased. Baby received Inj Meropenem & Inj Vancomycin for 14 days. Inj BCG, Hep B & OPD given on 11/04/2023. Now the baby has no respiratory distress, feed well tolerated, hemodynamically stable & hence advised for discharge.",SINGLE / PRETERM / LOW BIRTH WEIGHT (34 WEEKS 5 DAYS) / BOY BABY / SEPSIS / MENINGITIS P07.1 Other low birth weight
+Manjusri Halder,71,,110,"Lymphocytes 60%, Polymors 40%",,,74,128,nil,<0.02,12,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,"Patient was admi ed with complaints of high grade fever, nausea, vomi ng, headache and convulsion for 3 days. She was transferred from Olivia Nursing Home here she was ini ally admi ed.","Pa ent was admi ed with above men oned complaints. She had cardiac arrest on 09/04/23 and ROSC (return of spontaneous circula on) was achieved a er resuscita on. She was intubated and ven lated, she was on ionotrops support. CSF study was done. IV an bio cs con nued with Aciclovir and Meropenem. She received 5 units PRBC, 4 units FFP and 8 units Albumin. She was reviewed by Neurologist Dr. S. S. Chowdhury. Ven lator weaning tried. Tracheostomy was done on 18/04/23 by Dr. Sukrit Bose (MS). Sepsis was controlled a er prolonged an bio c therapy and subsequent escala on.An bio cs received Teicoplanin 400, Acyclovir 10-17, Meropenem 2 g, Ce azidime / Avibactam, 
+Polymixin B, Zostum O, Azofed 1 g, Colepsin (1). She was removed ven lator on 08/05/2023. She is 
+now being discharged with E2 M2 VT status with Central line, Ryle's tube & Silicon catheter in situ. ","MENINGOENCEPHALITIS A32.1 Listerial meningi s and meningoencephali s POST CARDIAC ARREST SURVIVOR I46.9 Cardiac arrest, unspecified HYPOXIC BRAIN INJURY SEPSIS (PULMONARY + URO) A41.8 Other specified sep caemia GENERALIZED TONIC CLONIC SEIZURE G40.0 Localiza on-related (focal)(par al) idiopathic epilepsy and epilep c syndromes with seizures of localized onset DYSELECTROLYTAEMIA E87.8 Other disorders of electrolyte and fluid balance, not elsewhere classified HYPERTENSION I10 Essen al (primary) hypertension TYPE 2 DIABETETS MELLITUS E11.9 DIABETIC MELLITUS HYPOTHYROIDISM E03.9 Hypothyroidism, unspecified ANAEMIA D64.9 Anaemia, unspecified HYPOALBUMINEMIA R77.0 Abnormality of albumin"
+Tanmoy Karmakar,35,,6,All lymphocytes,,,94,79,nil,<0.02,36,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,"Shortness of breath, restless, dislocated prosthesis of le hip.","Pa ent admi ed with above men oned complaints and treated conserva vely with IV an bio cs, Inj Hydrocor sone, LMWH and other suppor ve drugs. Pa ent's sensorium gradually down and intubated on 16/04/2023.Now extubated, GCS = E2 V1 M3. Ryle's tube feeding to con nue. CSF study done. Now pa ent's GCS = E2 V1 M2 and now the pa ent is being transferred to another centre for further treatment with Ryle's tube, Central line and Foley's catheter in situ.","HEPATIC ENCEPHALOPATHY K76.5 Hepa c veno-occluslve disease SEPSIS A41.8 Other specified sep caemia DYSELECTROLYTAEMIA E87.8 Other disorders of electrolyte and fluid balance, not elsewhere classified FRACTURE LEFT HIP IMPLANTATION M84.1 Fracture Non Union"
+Ananya Mohan Banerjee,84,,5,"All lymphocytes, RBC present",,,71,107,nil,<0.02,40,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.009,No malignent cell identified on smear examined.,,,
+Sunil Kumar Sarkar,80,,5,All lymphocytes,,,100,59,nil,<0.02,,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,"Admi ed with shortness of breath and desatura on, cough with thick expectora on.","SL # Surgery Date Surgery Name 1 19-May-2023 Elec ve Tracheostomy Anesthesia Type Surgeon Name TIVA Anaesthe st DR. RAHUL SARKAR DR. SUJOY CHAKRABORTY Pa ent admi ed with shortness of breath and inves ga on revealed lower respiratory tract infec on with syn-pneumonic effusion. A er treatment with an bio cs mainly Inj. Ce azidime + Avibactam, Inj. Aztreonam, Inj. Tigecycline, Tab. Clindamycin, Inj. Ce riaxone, nebulisa on and other suppor ve medicines. Neurologist, Pulmonologist and ENT opinion was taken. During recovery pa ent developed aspira on pneumoni s, probably due to laryngeal dysfunc on. Pa ent planned for elec ve tracheostomy and done on 19/05/2023 under TIVA. The pa ent is now being discharged with Tracheostomy tube, IV cannula, Ryle's tube and Catheter in-situ.","(1) LOWER RESPIRATORY TRACT INFECTION WITH PLEURAL EFFUSION J22 Unspecified acute lower respiratory infec on (2) LARYNGEAL MUSCLE DYSFUNCTION - > ASPIRATION PNEUMONITIS J38.5 Laryngeal spasm (3) HYPOALBUMINEMIA R77.0 Abnormality of albumin (4) ENCEPHALOPATHY G93.4 Encephalopathy, unspecified (5) HYPERTENSION I10 Essen al (primary) hypertension (6) ALZHEIMER'S DISEASE G30.9 Alzheimer's disease, unspecified (7) POST TRACHEOSTOMY STATUS Z93.0 Tracheostomy status"
+Pratima Ghosh,67,,5,All lymphocytes,,,82,142,nil,<0.02,42,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.002,No malignent cell identified on smear examined.,"Moderate to high grade fever for 12 days, severe generalized weakness, uncontrolled bowel & bladder habit.","Pa ent was admi ed with the above men oned complaints. All relevant inves ga ons were sent for and reports are a ached. Treated conserva vely with IV fluid, IV an bio c and other suppor ve medicines. Now as per pa ent's rela ves, pa ent needs to transfer higher nephro set up, hence now being transferred with hemodynamically stable condi on with Foley's catheter and Ryle's tube in situ.","TYPE 2 DIABETES MELLITUS E11.9 DIABETIC MELLITUS HYPERTENSION I10 UROSEPSIS A41.8 Essen al (primary) hypertension Other specified sep caemia CHRONIC KIDNEY DISEASE N03.9 CHRONIC KIDNEY DISEASE SEVERE DEHYDRATION E86 VOLUME DEPLETION DEHYDRATION UREMIC ENCEPHALOPATHY G93.4 Encephalopathy, unspecified"
+Sabina Bibi,33,,4,All lymphocytes,,,179,58,nil,<0.02,13,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.03,No malignent cell identified on smear examined.,"Complaints of fever (day 7) associated with nausea & vomi ng for last 2 months, severe headache, body weakness & blurring vision.",The pa ent was admi ed with above men oned complaints. She was treated conserva vely with suppor ve medica on. Required inves ga ons were done. She was also seen by Dr. S. S. Chowdhury (Neuro). Pa ent is vitally stable at discharge.,"ENTERIC FEVER A01.0 TYPHOID FEVER, ENTERIC FEVER"
+Baby of Rubina Khatun,    12d,,5,All lymphocytes,,,66,11,nil,,24,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+Sova Rani Biswas,68,,5,"100% lymphocytes, RBC present",,,83,45,nil,<0.02,26,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,"Complaints of anorexia with generalized weakness of body, pain with 15 days with altered sensorium & urinary incon nence.","The pa ent was admi ed with above men oned complaints. Relevant inves ga ons Including USG whole abdomen, CSF study were done & the reports are a ached. Treated conserva vely. She was referred to Dr. Soumya Sen (Ortho) for review & advice followed. She was also seen by Neurologist (Dr. S. S. Chowdhury). Gradually the condi on of the pa ent improved, hence she is now being discharged in stable condi on.","SIS :
+NPH (NORMAL PRESSURE HYDROCEPHALUS)
+G91.9
+Hydrocephalus, unspecified
+(NAFLD) NON-ALCOHOLIC FATTY LIVER DIEASE
+K76.0
+Fa y (change of) liver, not elsewhere classified
+DYSELECTROLYTEMIA
+E87.8
+Other disorders of electrolyte and fluid balance, not elsewhere classified
+GOU"
+Santosh Ladha,59,,98,"lymphocytes 89% , Polymors 11%",,,291,9,nil,1.9,333,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.02,No malignent cell identified on smear examined.,,,
+Baby of Banasri Ray,20,,4,All lymphocytes,,,73,63,nil,,20,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+Prava Adak,69,,90,lymphocytes 92% Neutrophil 08%,,,49.1,15.2,nil,21.1,31.1,nil,,15,Colourless,Alkaline,Absent,0,Clear,Absent,1.005,                                 nil,,,
+Hari Das Roy,81,,                          <10,100% lymphocytes,,,78.1,87.4,nil,5.7,<25,nil,,20,Watery,Alkaline,Absent,0,Clear,Absent,1.01,"Smears show occasional small lyphocytes,No abnormal malignent cell is seen.",,,
+Sikha Bose,72,,                          <10,Smears show few lymphocytes only. ,,,39.8,75,nil,6.7,             nil,nil,,20,Colourless,Alkaline,Absent,0,Clear,Absent,1.005,                                  nil,,,
+Asit Kumar Bhramha,88,,250,"Epithelial cells-Absent ,Inflamitory Cells",,,80.9,72,nil,15.1,              nil,nil,,10,Colourless,Alkaline,Absent,0,Slightly Hazy,Present,1.01,                                  nil,,,
+Santosh Kumar Saha,67,,"RBC -Plenty other,<10Cumm","Epithelial cells-Nil  ,Inflamitory Cell show few lymphocytes",,,46,61,nil,6.5,34.9,nil,,10,Pale Straw,Alkaline,Absent,0,Slightly Hazy,Slightly Present,1.01,                                  nil,,,
+Seema Ghosh,66,,                          <10,Scanty Lymphocytes show,,,56.9,111,nil,3.5,            <25,nil,,10,Colourless,Alkaline,Absent,0,Clear,Present,1.005,                                  nil,,,
+Prasanta Sekhar Sarkar,85,,10,Inflamatory cell show few llymphocytes,,,46.2,85,nil,4.3,                nil,nil,,10,Colourless,Alkaline,Absent,0,Clear,Absent,1.005,                                  nil,,,
+Dulal Chand Chakraborty,86,,200,"Polymors-05%,Lyphocytes -85%,Mononuclear-10%,RBC-a few",,,516,28.15,nil,13,169.45,nil,,20,Greyish,Alkaline,Absent,0,Slightly Hazy,Present(+),1.01,                                  nil,,,
+B/O Shaheona Yasmin Dey,26,,                          <10,Show scanty lymphocytes,,,48.2,37,nil,            nil,             nil,nil,,2,Colourless,Alkaline,Absent,0,Clear,Absent,1.005,                                  nil,,,
+Souvik Bhattacharya,35,,                           <10,Scanty lymphocytes,,,17.2,71,nil,5.5,              nil,nil,,15,Colourless,Alkaline,Absent,0,Clear,Absent,1.005,                                  nil,,,
+Sabita,21,,                          <10,"Smears show scanty cellulared lyphocytes &Occasional RBC'S
+ ",,,28.9,73,nil,5.5,            <25,nil,,10,Colourless,Alkaline,Absent,0,Clear,Absent,1.005,                                  nil,,,
+B/O Jhumpa,17,,                         <10,"Smears show scanty cellulared lyphocytes &Occasional RBC'S 
+ only",,,49.5,58,nil,4.9,25.3,nil,,3,Colourless,Alkaline,Absent,0,Clear,Absent,1.005,                                   nil,,,
+B/O Amrita Devi,                      05Day,,                         <10,"Epithelial cell-Nill,Inflamatory cell -Scanty lymphocytes",,,62,68,nil,            nil,              nil,nil,,4,Colourless,Alkaline,Absent,0,Clear,Absent,1,                                   nil,,,
+Mitali Bera,50,,650,"Inflamatory cell +  lymphocytes 16% , Polymorph 82%, Mononuclear= 2%",,,8.6,73,0.05,4.2,29.7,nil,,15,Straw,Alkaline,Absent,0,Little Hazy,Present,1.015,No malignant cells seen.,,,
+SPH/MED/12,45,,3,"Lymphocytes 100%, RBC
+ occational",,,121,65.2,384,nil,nil,nil,,10,straw,alkaline,absent,0,clear,absent,1.03,nil,,,
+SPH/MED/13,35,,15,"Predominantly lymphocytes
+ in a proteinaceous
+ background",,,88.4,54,nil,<2.0,nil,99,,15,watery,alkaline,absent,0,slightly hazy,slightly present,1.015,nil,,,
+SPH/MED/14,26,,8,All lymphocytes,,,55,75,nil,<3.0,nil,98,,12,watery,alkaline,absent,0,clear,absent,1.02,nil,"Drowsy, disoriented.","Pa ent was admited with above men oned complaints. Relevant inves ga ons were sent for and 
+ reports are a ached. Treated conserva vely with IV an bio c and other suppor ve medicines. LP 
+ done. She was intubated and put on T Piece - > Later extubated and clinically she is improved, hence 
+ now being discharged with hemodynamically stable condi on.",
+SPH/MED/15,20,,6,"Lymphocytes 100%, RBC
+ Present",,,170.2,65.2,nil,<2.0,30,nil,,10,straw,alkaline,absent,0,hazy,absent,1.01,nil,,,
+SPH/MED/16,63,,15,"All lymphocytes, background
+ is hemorrhagic",,,165,245,nil,<2.0,32.1,nil,,11,slightly grayish,alkaline,absent,0,clear,absent,1.006,nil,Acute onset high-grade fever and neck stiffness.,Emergency admission for suspected bacterial meningitis. Intensive IV antibiotics (Ceftriaxone + Vancomycin) started. Clinically improving.,ACUTE PYOGENIC MENINGITIS G00.9
+SPH/MED/17,67,,4,Occasional Lymphocytes,,,190,110,nil,<2.0,nil,101,,15,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,Chronic headache with progressive disorientation.,Evaluation of subacute meningitis. ADA levels and CSF profile suggestive of tuberculosis. Treatment initiated.,NEUROTUBERCULOSIS A17.9
+SPH/MED/18,29,,2455,"All lymphocytes, background
+ is hemorrhagic",,,310,12,nil,4.1,110,88,,10,grayish,Alkaline,Present,1,Turbid,present,1.025,nil,,,
+SPH/MED/19,55,,9,Lymphocytes 100%,,,85,65,nil,3.2,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.015,nil,"Admited with shortness of breath and desatura on, cough with thick expectora on.",,"(1) LOWER RESPIRATORY TRACT INFECTION WITH PLEURAL EFFUSION J22 Unspecified acute lower respiratory infec on (2) LARYNGEAL MUSCLE DYSFUNCTION - > ASPIRATION PNEUMONITIS J38.5 Laryngeal spasm (3) HYPOALBUMINEMIA R77.0 Abnormality of albumin (4) ENCEPHALOPATHY G93.4 Encephalopathy, unspecified (5) HYPERTENSION I10 Essen al (primary) hypertension (6) ALZHEIMER'S DISEASE G30.9 Alzheimer's disease, unspecified (7) POST TRACHEOSTOMY STATUS Z93.0 Tracheostomy status"
+SPH/MED/20,72,,8,Few Lymphocytes,,,115,210,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.005,No malignent cell identified on smear examined.,Hyperglycemia and drowsy state.,Patient with Type 2 DM admitted in hyperosmolar state. Managed with insulin infusion and rehydration. Condition improved.,TYPE 2 DM WITH HYPEROSMOLAR STATE E11.0
+SPH/MED/21,18,,45,Lymphocytes 85%,,,98,55,nil,2.5,56,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.012,No malignent cell identified on smear examined.,"Neck stiffness, fever",CSF analysis done. IV antibiotics started.,Bacterial Meningitis (G00.9)
+SPH/MED/22,61,,<10,RBCs present,,,220,88,nil,1.8,nil,nil,,15,slightly reddish,Alkaline,Absent,0,slightly hazy,slightly present,1.015,nil,,,
+SPH/MED/23,48,,6,All Lymphocytes,,,160,72,nil,14.2,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,nil,,,
+SPH/MED/24,33,,5,All Lymphocytes,,,55,60,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,,,
+SPH/MED/25,82,,<10,Few lymphocytes,,,130,45,nil,5.5,nil,105,,15,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,Altered sensorium with right-sided hemineglect,,"Demyelinating disease, probably Multiple Sclerosis (? Relapsing-Remitting Multiple Sclerosis – RRMS)"
+SPH/MED/26,45,,92,Lymphocytes 90%,,,145,40,12,12.5,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.018,nil,,,
+SPH/MED/27,67,,<10,Occasional Lymphocytes,,,190,110,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,,,
+SPH/MED/28,29,,690,Polymorphs 92%,,,310,12,nil,4.1,72,99,,10,grayish,Alkaline,Present,1,Turbid,present,1.025,"Smears prepared from the centrifuged 
+ deposits show occasional lymphocytes 
+ and fair number of RBC's. No 
+ unequivocal malignant cell is seen",Drowsiness and disorientation,"The patient was admitted with complaints of altered sensorium in the form of drowsiness and disorientation. On admission, the patient was evaluated thoroughly, and all relevant investigations were sent, including routine blood tests and neuroimaging. Reports were reviewed and documented in the case file.
+ 
+ The patient was managed in a monitored setting with intravenous antibiotics, supportive medications, and close neurological observation. In view of decreased sensorium, airway protection was ensured, and the patient was intubated and placed on ventilatory support (T-piece).
+ 
+ Lumbar puncture (LP) was performed under aseptic precautions for further evaluation. Based on clinical and investigative findings, treatment was continued conservatively.
+ 
+ Gradually, the patient showed clinical improvement. Sensorium improved, and the patient was successfully extubated. At present, the patient is conscious, oriented, and hemodynamically stable.
+ 
+ The patient is being discharged in stable condition with advice for follow-up and continuation of medications as prescribed.",
+SPH/MED/29,55,,11,Lymphocytes 100%,,,85,65,nil,3.2,46,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.015,nil,,,
+SPH/MED/30,72,,6,Few Lymphocytes,,,115,210,nil,<2.0,nil,100.2,,15,watery,Alkaline,Absent,0,Clear,absent,1.005,nil,,,
+SPH/MED/31,18,,45,"Lymphocytes seen ,No abnor mal cell seen.",,,98,55,nil,2.5,nil,97,,12,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,,,
+SPH/MED/32,61,,<10,Few Lymphocytes,,,198,88,nil,1.8,nil,nil,,15,watery,Alkaline,Absent,0,clear,absent,1.015,No malignent cell identified on smear examined.,"SOB, drowsiness","ICU admission, oxygen therapy, IV antibiotics, monitoring",Septic encephalopathy
+SPH/MED/33,48,,6,Mononuclear cells,,,155.2,72,nil,14.2,40,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,nil,Hyperglycemia,"Insulin therapy, monitoring",Type 2 diabetes mellitus
+SPH/MED/34,33,,5,All Lymphocytes,,,55,60,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,SOB with altered sensorium,"ICU admission, oxygen support, IV antibiotics and monitoring given, gradual improvement in sensorium",Septic encephalopathy
+SPH/MED/35,82,,2,Occasional Lymphocytes,,,128.7,45,6,5.5,56,99,,15,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,SOB with drowsiness,"Found to have high ammonia, managed with supportive care and medications",Hepatic encephalopathy
+SPH/MED/36,45,,120,Lymphocytes 90%,,,134,63,12,12.5,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.018,nil,,,
+SPH/MED/37,67,,<10,Occasional Lymphocytes,,,190,110,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,,,
+SPH/MED/38,29,,2010,All Lymphocytes,,,332.5,12,nil,4.1,256,101,,10,grayish,Alkaline,Present,1,Turbid,present,1.025,nil,,,
+SPH/MED/39,55,,15,All Lymphocytes,,,89,65,nil,3.2,nil,97,,14,straw,Alkaline,Absent,0,Clear,absent,1.015,nil,,,
+SPH/MED/40,72,,8,Few Lymphocytes,,,115,210,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.005,nil,,,
+SPH/MED/41,18,,45,Lymphocytes 85%,,,98,55,nil,2.5,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,,,
+SPH/MED/42,61,,<10,RBCs present,,,220,88,nil,<2.0,84,nil,,15,sligtly reddish,Alkaline,Absent,0,slightly hazy,slightly present,1.015,nil,Altered sensorium with right-sided hemineglect,,"Demyelinating disease, probably Multiple Sclerosis (? RRMS)"
+SPH/MED/43,48,,12,Few lyphocytes,,,155.6,74,nil,14.2,nil,102,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,nil,,,
+SPH/MED/44,33,,3,All Lymphocytes,,,56.2,61,nil,<2.0,123,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,,,
+SPH/MED/45,82,,<10,Few lyphocytes,,,129.5,44,nil,5.5,42,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,,,
+SPH/MED/46,44,,4,All lymphocytes,,,47,142.1,142.7,5.6,21,99,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,,,
+SPH/MED/47,61,,120,"Lymphocytes 90%, Neutrophil 10%",,,131.52,72,nil,2,18.6,nil,,30,colourless,Alkaline,Absent,0,Clear,Absent,1.02,No malignent cell identified on smear examined.,,,
+SPH/MED/48,22,,4,All lymphocytes,,,113,68,nil,2,15.4,99,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,,,
+SPH/MED/49,73,,5,All lymphocytes,,,40.3,79.9,nil,,26.4,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+SPH/MED/50,13,,34,Lymphocytes 96% Polymorphrs 4%,,,52.6,48.5,nil,4.4,14.8,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,,,
+SPH/MED/51,56,,5,All lymphocytes,,,61,95,nil,5,80,103,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.008,No malignent cell identified on smear examined.,,,
+SPH/MED/52,79,,6,All lymphocytes,,,55.09,81.8,nil,Low,6.1,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,,,
+SPH/MED/53,42,,5,All lymphocytes,,,52,79,nil,3,11,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+SPH/MED/54,33,,6,All lympholytics,,,44,107,nil,3,6,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,,,
+SPH/MED/55,27,,2,Mononuclear cells 100%,,,56,125,nil,Low,44.5,nil,,20,colourless,Alkaline,Absent,0,Clear,Absent,1.009,No malignent cell identified on smear examined.,"Altered sensorium, right-sided neurological deficit","The patient presented with altered sensorium and features suggestive of right-sided hemineglect. Necessary laboratory and radiological investigations were performed, confirming a demyelinating pathology.
+ 
+ The case was co-managed with Neurology, and appropriate treatment was initiated. The patient responded well to therapy with progressive improvement in sensorium and neurological status.
+ 
+ No invasive surgical intervention was required. The patient remained hemodynamically stable throughout the hospital stay and is being discharged in improved condition with advice for continuation of medications and follow-up.",Probable Multiple Sclerosis – Relapsing Remitting type (RRMS)
+SPH/MED/56,1M,,10,Predominantly mononuclear cells in a background of RBCs no atypical cell identified.,,,68.2,55.2,nil,,64,100,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.001,,,,
+SPH/MED/57,3,,5,All lymphocytes,,,34.7,80,nil,,nil,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.01,No malignent cell identified on smear examined.,,,
+SPH/MED/58,44,,16,100% lymphocytes,,,34.2,132,nil,5.7,28,98,,20,Straw,Alkaline,Absent,0,Slightly hazy,Absent,1.009,Smear prepared from the centrifuge deposite show occasional scatters small lymphocytes mainly unequivalence malignant cell is seen Negative for malignancy.,,,
+SPH/MED/59,78,,3,Predominantly Lymphocyte no malignant cell seen.,,,143.53,86.2,nil,10.1,27,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+SPH/MED/60,47,,8,Predominantly Lymphocytes no features of any atypical or malignancy seen.,,,46.51,91,nil,9.8,56,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.005,No malignent cell identified on smear examined.,,,
+SPH/MED/61,72,,5,All lymphocytes,,,43,65,nil,2.4,20,nil,,15,colourless,Alkaline,Absent,0,Clear,Absent,1.009,No malignent cell identified on smear examined.,,,
+SPH/MED/62,68,,6,All lymphocytes,,,99.2,282,nil,21.2,44,nil,,10,colourless,Alkaline,Absent,0,Clear,Absent,1.001,No malignent cell identified on smear examined.,,,
+SPH/MED/63,45,,7,Lymphocytes 100% RBC occasional,,,121,65.2,384,nil,nil,nil,,10,straw,alkaline,absent,0,clear,absent,1.03,nil,,,
+SPH/MED/64,35,,15,Predominantly lymphocytes in a proteinaceous background,,,88.4,54,nil,<2.0,nil,99,,15,watery,alkaline,absent,0,slightly hazy,slightly present,1.015,nil,,,
+SPH/MED/65,26,,8,All lymphocytes,,,55,75,nil,<3.0,nil,98,,12,watery,alkaline,absent,0,clear,absent,1.02,nil,,,
+SPH/MED/66,20,,6,Lymphocytes 100% RBC Present,,,170.2,65.2,nil,<2.0,30,nil,,10,straw,alkaline,absent,0,slightly hazy,absent,1.01,nil,,,
+SPH/MED/67,63,,10,All lymphocytes,,,165,245,nil,<2.0,32.1,nil,,11,watery,alkaline,absent,0,clear,absent,1.006,nil,,,
+SPH/MED/68,55,,5,Few lymphocytes only,,,254,80,324,3.8,44,98,,14,straw,alkaline,absent,0,clear,absent,1.05,nil,,,
+SPH/MED/69,52,,6,lymphocytes,,,210,175,245,<2.0,33,101,,15,watery,alkaline,absent,0,clear,absent,1.005,nil,,,
+SPH/MED/70,25,,7,smears show occasional lymphocytes only.,,,57,54,175,3.8,28,99,,15,watery,alkaline,absent,0,slightly hazy,absent,1.01,nil,,,
+SPH/MED/71,74,,5,smears show few lymphocytes only. No others cells seen,,,105,19,142,6.3,56,97,,12,slightly grayish,alkaline,absent,0,hazy,absent,1.007,nil,,,
+SPH/MED/72,22,,28,lymphocytes,,,130,60,nil,10.2,nil,98,,10,Whitish,alkaline,absent,0,clear,absent,1.1,nil,,,
+SPH/MED/73,68,,5,smear show few scattered lymphocytes (100%),,,154,10.6,nil,9,147.9,nil,,10,straw,alkaline,Absent,0,clear,Absent,1.001,nil,,,
+SPH/MED/74,58,,<10,polymorphs - 40% lymphocytes - 60%,,,91.6,117,nil,1,42,nil,,10,watery,Alkaline,Absent,0,clear,Absent,1.005,nil,,,
+SPH/MED/75,56,,485,lymphocytes - 95% polymorphs - 05%,,,201,173,nil,9,207.4,nil,,10,slightly grayish,Alkaline,Present,1,Slightly hazy,Slightly present,1.015,nil,"Sudden loss of consciousness with 1 episode of generalized weakness, intermi ent fever & headache.",,ACUTE ENCEPHALITIS SYNDROME A85.8 Other specified viral encephali s
+SPH/MED/76,70,,6,lymphocytes - 100% polymorphs - 00% RBC-a few,,,119,142,nil,2,67,nil,,20,Whitish,Alkaline,Absent,0,clear,Slightly present,1.002,nil,,,
+SPH/MED/77,80,,3,Few lymphocytes,,,148,84,nil,<3,39,nil,,20,Watery,Alkaline,Absent,0,clear,Absent,1.001,nil,,,
+SPH/MED/78,78,,5,Few lymphocytes,,,<2,95,nil,<2,33,nil,,10,Watery,Alkaline,Absent,0,Clear,Absent,1.015,nil,,,
+SPH/MED/79,31,,8,Few lymphocytes RBC- Few,,,66,34,nil,nil,nil,nil,,10,Watery,Alkaline,Absent,0,Clear,Absent,1.005,nil,,,
+SPH/MED/80,60,,2,Occasional lymphocytes,,,132,22,nil,11.7,29,nil,,15,pale yellow,Alkaline,Absent,0,Clear,Absent,1.001,nil,"Prolonged fever, generalized weakness, incontinence","Evaluated and treated conservatively with IV antibiotics and fluids. Supportive care given with Foley’s catheter and Ryle’s tube. Due to CKD and clinical condition, shifted to higher center for nephrology management. Stable at transfer.","Type 2 DM, Hypertension, Urosepsis, CKD, Dehydration, Uremic encephalopathy"
+SPH/MED/81,53,,3410,Lymphocytes - 10% Polymorphs - 85% Mononuclear cell - 05% RBC - A few,,,210,1,nil,22.1,227,101,,30,Grayish,Alkaline,Absent,0,Slightly Hazy,Slightly Present,1.005,nil,Neck rigidity,"LP done, IV antibiotics",Bacterial meningitis
+SPH/MED/82,40,,10,Few lymphocytes,,,105.9,91,nil,5.63,10,nil,,20,clear,Alkaline,Absent,0,Clear,absent,1.009,nil,Generalized weakness,,
+SPH/MED/83,24,,380,polymorphic 5% lymphocytes 94% monocytes 1%,,,184,16.42,57,99,nil,nil,,10,redish,Alkaline,present,1,hazy,present,1.001,nil,Fever with seizure,Patient admitted with seizure episode. CSF analysis and neuroimaging done. Treated with IV antivirals and antibiotics. Improved clinically.,Encephalitis
+SPH/MED/84,56,,<10,polymorphs - 05% lymphocytes - 60%,,,83,99,nil,31,nil,nil,,40,straw,Alkaline,Present,1,Slightly Hazy,Slightly Present,1.001,Smears show occasional lymphocytes and fair number of RBC's. No unequivocal malignant cell seen,Fever with burning micturition,Urine investigations done. Managed with IV antibiotics and fluids. Patient improved clinically.,Urosepsis
+SPH/MED/85,42,,120,Lymphocytes 90%,,,145,40,12,12.5,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.018,nil,Complaints of abdominal pain for 4 days associated with fever for 2 days,,"Sepsis-induced Acute Kidney Injury (resolving stage)
+ Sepsis (? Viral meningitis) with episodic rigor and desaturation"
+SPH/MED/86,67,,4,Occasional Lymphocytes,,,188,110,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,,,
+SPH/MED/87,29,,2500,Polymorphs 92%,,,310,12,nil,4.1,nil,nil,,10,grayish,Alkaline,Present,1,Turbid,present,1.025,nil,"Respiratory distress, cough",,"RESPIRATORY TRACT INFECTION J39.9 Disease of upper respiratory tract, unspecified ATRIAL FIBRILLATION WITH CONTROLLED VR I48 Atrial fibrilla on and flu er ACUTE EXACERBATION OF CHRONIC OBSTRUCTIVE PULMONARY DISEASE J44.9 Chronic obstruc ve pulmonary disease, unspecified COR PULMONALE I26.9 HYPONATREMIA E87.1 Pulmonary embolism without men on of acute cor pulmonale Hypo-osmolallty and hyponatraemia"
+SPH/MED/88,55,,7,Lymphocytes 100%,,,84.5,65,nil,3.2,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.015,nil,,,
+SPH/MED/89,72,,2,Few Lymphocytes,,,110,210,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.005,nil,,,
+SPH/MED/90,18,,45,Lymphocytes 85%,,,74,55,nil,2.5,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,One episode of large amount of hematemesis,"Pa ent was admi ed due to above men oned reasons in ICU. All relevant inves ga ons were done. 
+ Gastroscopy (03/04/22) - Large esophageal varices witn RCS, Mild PHG. Therapeu c Endoscopy - 
+ 03/04/22 - EVL done. USG (04/04/22) - CLD with portal HTN. Pa ent condi on got be er and was 
+ shi ed to ward on 04/04/22. At the me of discharge, he is hemodynamically stable.","CIRRHOSIS OF LIVER, PORTAL HYPERTENSION, HYPOKALEMIA"
+SPH/MED/91,61,,<10,RBCs present,,,56,88,nil,1.8,nil,nil,,15,pale yellow,Alkaline,Absent,0,Clear,absent,1.015,nil,Severe pain abdomen with pain radia ng to back.,The pa ent was admi ed for above men oned reason. Relevant inves ga ons were done.,PAIN ABDOMEN R10.4 Other and unspecified abdominal pain CHRONIC CALCULUS CHLLECYSTITIS K80.4 Calculus of bile duct with cholecys s
+SPH/MED/92,48,,12,Mononuclear cells,,,142,72,nil,14.2,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,No malignent cell identified on smear examined.,,,
+SPH/MED/93,33,,4,All Lymphocytes,,,54,60,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,,,
+SPH/MED/94,82,,4,Few lymphocytes seen.,,,131,45,nil,5.5,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,,,
+SPH/MED/95,45,,120,Lymphocytes 90%,,,145,40,12,12.5,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.018,nil,,,
+SPH/MED/96,67,,9,Occasional Lymphocytes,,,190,110,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.01,nil,,,
+SPH/MED/97,29,,55,Polymorphs 92%,,,67,12,nil,4.1,nil,nil,,10,grayish,Alkaline,Present,1,Turbid,present,1.025,nil,,,
+SPH/MED/98,55,,12,Lymphocytes 100%,,,85,65,nil,3.2,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.015,No malignent cell identified on smear examined.,,,
+SPH/MED/99,72,,8,Few Lymphocytes,,,120,210,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.005,nil,,,
+SPH/MED/100,18,,22,Lymphocytes 85%,,,88,55,nil,2.5,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,,,
+SPH/MED/101,61,,<10,Few lymphocytes and RBCs present,,,190,88,nil,1.8,nil,98,,15,pale yellow,Alkaline,Absent,0,Clear,absent,1.015,No malignent cell identified on smear examined.,,,
+SPH/MED/102,48,,12,Few lyphocytes,,,160,72,nil,14.2,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,No malignent cell identified on smear examined.,,,
+SPH/MED/103,31,,1750,Polymorphs 95%,,,204,10,nil,5.2,nil,nil,,10,grayish,Alkaline,Present,1,Turbid,present,1.028,nil,CSF rhinorrhea,"The patient was evaluated for complaints of cerebrospinal fluid (CSF) rhinorrhea along with headache and vomiting. Initial management included intravenous antibiotics and symptomatic treatment.
+ 
+ Internal Medicine and Neurology consultations were obtained, and their advice was followed. Lumbar puncture was performed, which did not reveal any evidence of meningitis.
+ 
+ Further evaluation with CT cisternography demonstrated leakage of contrast from the left sphenoid, ethmoid, and frontal sinuses, suggestive of an extensive skull base defect.
+ 
+ In view of the findings and need for definitive surgical management, the patient was referred and transferred to a higher center for operative intervention with IV cannula in situ. The patient was hemodynamically stable at the time of transfer.",Traumatic base of skull fracture with CSF rhinorrhea (S02.9)
+SPH/MED/104,52,,18,Lymphocytes 100%,,,64,62,nil,2.8,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.018,nil,,,
+SPH/MED/105,68,,10,Few Lymphocytes,,,108,205,nil,<2.0,nil,nil,,20,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,,,
+SPH/MED/106,22,,50,Lymphocytes 88%,,,95,52,nil,3.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.014,nil,,,
+SPH/MED/107,59,,<10,RBCs present,,,215,90,nil,2.1,nil,nil,,10,pale yellow,Alkaline,Absent,0,Xanthochromic,absent,1.016,nil,,,
+SPH/MED/108,51,,3,few lymphocytes,,,134,68,nil,13.8,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.022,nil,,,
+SPH/MED/109,36,,5,All Lymphocytes,,,62,58,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.011,nil,,,
+SPH/MED/110,79,,5,Few scattered cells,,,143,48,nil,6.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.009,nil,,,
+SPH/MED/111,44,,88,Lymphocytes 92%,,,145,38,15,11.8,nil,nil,,12,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,nil,,,
+SPH/MED/112,70,,6,Occasional Lymphocytes,,,174,105,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,,,
+SPH/MED/113,30,,1650,"Lymphocytes20%,Polymorphs-80% ,No abnormal cell seen",,,234,10,nil,5.2,nil,nil,,10,grayish,Alkaline,Present,1,Turbid,present,1.028,nil,Fever for 5 days with headache and drowsiness,"A 30-year-old male was admitted with complaints of persistent fever for 5 days associated with headache and altered sensorium. He had received prior treatment locally without clinical improvement. On admission, the patient was restless, delirious, and required sedation.
+ 
+ Initial empirical management was started with IV Ceftriaxone, Vancomycin, and Acyclovir considering possible encephalitis. Relevant investigations including malaria, dengue, Widal, and typhoid serology were negative. Liver function tests showed derangement suggestive of hepatitis.
+ 
+ Neuroimaging (NCCT brain) was within normal limits. CSF analysis was performed, which was not suggestive of bacterial or viral meningitis. Neurology and gastroenterology consultations were taken.
+ 
+ Further evaluation revealed Leptospira IgM positivity. Accordingly, antibiotics were modified to Doxycycline and Amoxicillin, and antivirals were discontinued. The patient showed gradual clinical improvement with normalization of sensorium.
+ 
+ At discharge, the patient is afebrile, conscious, oriented, and hemodynamically stable.",Fever with altered sensorium – ? Viral encephalitis
+SPH/MED/114,51,,11,Lymphocytes 100%,,,86,62,nil,2.8,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.018,nil,,,
+SPH/MED/115,67,,4,Few Lymphocytes,,,22,205,nil,<2.0,nil,nil,,20,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,,,
+SPH/MED/116,21,,30,Lymphocytes 88%,,,93,52,nil,3.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.014,No malignent cell identified on smear examined.,,,
+SPH/MED/117,58,,2,RBCs present,,,215,90,nil,2.1,nil,nil,,10,pale yellow,Alkaline,Absent,0,Xanthochromic,absent,1.016,No malignent cell identified on smear examined.,,,
+SPH/MED/118,50,,15,Lymphocytes 100%,,,154,67,nil,13.8,149,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.022,nil,,,
+SPH/MED/119,35,,6,All Lymphocytes,,,59,58,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.011,nil,,,
+SPH/MED/120,78,,<10,Few scattered cells,,,126,48,nil,6.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.009,nil,,,
+SPH/MED/121,43,,42,Lymphocytes 92%,,,20.9,38,15,11.8,nil,nil,,12,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,nil,,,
+SPH/MED/122,69,,<10,Occasional Lymphocytes,,,88,105,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,,,
+SPH/MED/123,29,,32,Lymphocytes - 20% Polymorphs - 80%,,,220,10,nil,5.2,nil,nil,,10,grayish,Alkaline,Present,1,Turbid,present,1.028,nil,,,
+SPH/MED/124,50,,14,Lymphocytes 100%,,,49,62,nil,2.8,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.018,nil,,,
+SPH/MED/125,66,,3,Few Lymphocytes,,,110,205,nil,<2.0,nil,nil,,20,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,,,
+SPH/MED/126,20,,9,Lymphocytes 88%,,,69,52,nil,3.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.014,nil,,,
+SPH/MED/127,57,,7,RBCs present,,,112,90,nil,2.1,nil,nil,,10,pale yellow,Alkaline,Absent,0,Xanthochromic,absent,1.016,nil,Moderate to high-grade fever for 12 days with severe generalized weakness and loss of bowel and bladder control,"The patient was admitted with the above-mentioned complaints. Detailed clinical evaluation was done, and all relevant investigations were sent. Reports were reviewed and documented in the case file.","Type 2 Diabetes Mellitus (E11.9)
+ Essential Hypertension (I10)
+ Urosepsis (A41.8)
+ Chronic Kidney Disease (N18.9)"
+SPH/MED/128,49,,15,Mononuclear cells,,,73,68,nil,13.8,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.022,nil,,,
+SPH/MED/129,34,,6,All Lymphocytes,,,65,58,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.011,nil,,,
+SPH/MED/130,77,,2,"Lymphocytes seen ,No abnor mal cell seen.",,,139,48,nil,<2.0,nil,87,,15,watery,Alkaline,Absent,0,Clear,absent,1.009,nil,,,
+SPH/MED/131,42,,18,All Lymphocytes,,,148,38,15,11.8,nil,nil,,12,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,No malignent cell identified on smear examined.,,,
+SPH/MED/132,68,,4,Occasional Lymphocytes,,,185,105,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,,,
+SPH/MED/133,28,,860,Polymorphs 95%,,,220,10,nil,5.2,nil,nil,,10,grayish,Alkaline,Present,1,Turbid,present,1.028,nil,Ver go & 3-4 episodes of vomitng.,The pa ent was admi ed with above men oned complaints and treated conserva vely. Relevant inves ga ons were done & reports are a ached to the file. She is now being discharged in hemodynamically stable condi on.,"LOWER RESPIRATORY TRACT INFECTION, UNCONTROLLED TYPE 2 DIABETES MELLITUS 
+ J22 
+ Unspecified acute lower respiratory infec on"
+SPH/MED/134,49,,3,Lymphocytes 100%,,,30,62,nil,2.8,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.018,nil,,,
+SPH/MED/135,65,,10,Few Lymphocytes,,,120,205,nil,<2.0,nil,nil,,20,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,,,
+SPH/MED/136,19,,9,Lymphocytes 88%,,,95,52,nil,3.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.014,nil,,,
+SPH/MED/137,56,,2,RBCs present,,,78,90,nil,2.1,nil,nil,,10,pale yellow,Alkaline,Absent,0,Xanthochromic,absent,1.016,nil,,,
+SPH/MED/138,48,,12,Mononuclear cells,,,155,68,nil,13.8,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.022,nil,,,
+SPH/MED/139,33,,2,All Lymphocytes,,,60,58,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.011,nil,,,
+SPH/MED/140,76,,4,Few scattered cells,,,124,48,nil,6.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.009,No malignent cell identified on smear examined.,Altered sensorium with focal neurological deficit (right-sided hemineglect),"The patient was admitted with altered sensorium and focal neurological deficit involving the right side. Comprehensive evaluation including imaging and laboratory investigations was undertaken.
+ 
+ Findings were suggestive of a demyelinating disorder. Neurology opinion was sought, and treatment was started accordingly. The patient was managed conservatively with immunomodulatory and supportive therapy.
+ 
+ Clinical condition improved steadily during the hospital stay. At the time of discharge, the patient is neurologically stable, conscious, and maintaining stable vital parameters.",Demyelinating disease – likely Multiple Sclerosis (? RRMS)
+SPH/MED/141,41,,66,Lymphocytes 92%,,,102,38,15,11.8,nil,nil,,12,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.02,nil,,,
+SPH/MED/142,67,,<10,Occasional Lymphocytes,,,88,105,nil,<2.0,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.012,nil,,,
+SPH/MED/143,27,,320,Polymorphs 95%,,,220,10,nil,5.2,nil,nil,,10,grayish,Alkaline,Present,1,Turbid,present,1.028,nil,,,
+SPH/MED/144,48,,20,Lymphocytes 100%,,,67,62,nil,2.8,nil,nil,,14,straw,Alkaline,Absent,0,Clear,absent,1.018,nil,,,
+SPH/MED/145,64,,8,Few Lymphocytes,,,102,205,nil,<2.0,nil,nil,,20,watery,Alkaline,Absent,0,Clear,absent,1.008,nil,,,
+SPH/MED/146,18,,22,Lymphocytes 88%,,,65,52,nil,3.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.014,nil,,,
+SPH/MED/147,55,,6,Few lymphocytes and RBCs present,,,25,90,nil,2.1,nil,nil,,10,pale yellow,Alkaline,Absent,0,Xanthochromic,absent,1.016,nil,,,
+SPH/MED/148,47,,8,Few Lymphocytes,,,89,68,nil,13.8,nil,nil,,10,straw,Alkaline,Absent,0,Slightly Hazy,absent,1.022,No malignent cell identified on smear examined.,,,
+SPH/MED/149,32,,6,All Lymphocytes,,,68,58,nil,<2.0,nil,nil,,12,watery,Alkaline,Absent,0,Clear,absent,1.011,nil,,,
+SPH/MED/150,75,,3,Few Lymphocytes,,,69,48,nil,6.1,nil,nil,,15,watery,Alkaline,Absent,0,Clear,absent,1.009,nil,,,
