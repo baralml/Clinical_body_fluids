@@ -338,6 +338,17 @@ label {
     color: var(--text-secondary);
 }
 
+.ref-range {
+    font-size: 10px;
+    font-weight: normal;
+    color: var(--text-muted);
+    text-transform: none;
+    letter-spacing: normal;
+    margin-left: 6px;
+    display: inline-block;
+}
+
+
 input[type="text"],
 input[type="number"],
 select,
